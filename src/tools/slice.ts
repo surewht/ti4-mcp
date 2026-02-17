@@ -20,6 +20,12 @@ function analyzeSlice(tileIds: number[]): SliceAnalysis {
   let totalResources = 0;
   let totalInfluence = 0;
   const techSkips: string[] = [];
+  const specialtyToColor: Record<string, string> = {
+    propulsion: "blue",
+    warfare: "red",
+    biotic: "green",
+    cybernetic: "yellow",
+  };
   const wormholes: string[] = [];
   const anomalies: string[] = [];
   const planets: SliceAnalysis["planets"] = [];
@@ -36,7 +42,12 @@ function analyzeSlice(tileIds: number[]): SliceAnalysis {
       totalResources += p.resources;
       totalInfluence += p.influence;
       planets.push({ name: p.name, resources: p.resources, influence: p.influence, trait: p.trait });
-      if (p.specialties && p.specialties.length) techSkips.push(...p.specialties);
+      if (p.specialties && p.specialties.length) {
+        for (const spec of p.specialties) {
+          const color = specialtyToColor[spec] ?? spec;
+          techSkips.push(`${p.name}: ${spec} (${color})`);
+        }
+      }
       if (p.legendary) {
         legendaryPlanets.push({
           name: p.name,
@@ -105,7 +116,8 @@ export function registerSliceTools(server: McpServer) {
         ranking: ranking.map((s) => ({
           sliceIndex: s.sliceIndex,
           optimalValue: s.optimalValue,
-          summary: `${s.totalResources}R/${s.totalInfluence}I, ${s.techSkips.length} skip(s), ${s.planetCount} planet(s)${s.wormholes.length ? ", " + s.wormholes.join("+") + " wormhole(s)" : ""}${s.legendaryPlanets.length ? ", LEGENDARY" : ""}`,
+          techSkips: s.techSkips,
+          summary: `${s.totalResources}R/${s.totalInfluence}I, ${s.techSkips.length} skip(s)${s.techSkips.length ? " [" + s.techSkips.join(", ") + "]" : ""}, ${s.planetCount} planet(s)${s.wormholes.length ? ", " + s.wormholes.join("+") + " wormhole(s)" : ""}${s.legendaryPlanets.length ? ", LEGENDARY" : ""}`,
         })),
       };
 
