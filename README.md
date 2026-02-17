@@ -180,7 +180,7 @@ Tools accept an `expansions` parameter to control which content is included:
 - `codex-1` through `codex-4` — Codex volumes (includes omega replacements)
 - `thunders-edge` — Thunder's Edge expansion
 
-When expansions include content that replaces older versions (e.g. omega techs), the older versions are automatically filtered out.
+When expansions include codex volumes, updated components automatically replace their older base/PoK versions.
 
 ## License
 
