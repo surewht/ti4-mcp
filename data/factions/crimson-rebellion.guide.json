@@ -1,0 +1,33 @@
+{
+  "factionId": "crimson-rebellion",
+  "strengths": [
+    "Sundered — other players' units placed in your home system are destroyed (impenetrable home)",
+    "Breach manipulation creates unconventional movement advantages and adjacency",
+    "Epsilon wormhole isolation prevents standard wormhole invasion",
+    "Subatomic Splicer — destroyed ships reproduce at home space dock for free",
+    "Start with Breakthrough unlocked — immediate synergy access",
+    "S-tier competitive rating (SCPT Dec 2025)"
+  ],
+  "weaknesses": [
+    "High complexity — execution is challenging",
+    "Separation from main board creates positioning difficulties",
+    "Cannot use standard wormholes (alpha, beta, gamma) — only epsilon",
+    "Limited expansion routes through breaches only"
+  ],
+  "tips": [
+    "Your home system is a fortress — units placed there by enemies are destroyed",
+    "Flip breaches strategically to create adjacency where you need it",
+    "Subatomic Splicer means losing ships in combat is less punishing — they rebuild at home",
+    "Manage your breach network carefully — it's your primary movement tool",
+    "Starting with Breakthrough unlocked gives you an early advantage over other TE factions",
+    "Plan your map positioning around breach placement for maximum flexibility"
+  ],
+  "techPaths": [
+    {
+      "name": "Faction tech priority",
+      "techs": ["Subatomic Splicer"],
+      "note": "Subatomic Splicer provides ship replacement on destruction — essential for aggressive play"
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com/wiki/The_Crimson_Rebellion"]
+}

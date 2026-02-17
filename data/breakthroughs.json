@@ -1,0 +1,266 @@
+[
+  {
+    "id": "psychospore",
+    "name": "Psychospore",
+    "faction": "arborec",
+    "description": "ACTION: Exhaust this card to remove a command token from a system that contains 1 or more of your infantry and return it to your reinforcements. Then, place 1 infantry in that system.",
+    "synergy": ["biotic", "warfare"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "wing-transfer",
+    "name": "Wing Transfer",
+    "faction": "argent-flight",
+    "description": "When you activate a system that contains only your units, you may place command tokens from your reinforcements into any system adjacent to that system that contain only your units; at the end of this action, you may move ships among the active system and systems adjacent to it that contain your command tokens.",
+    "synergy": ["propulsion", "biotic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "gravleash-maneuvers",
+    "name": "Gravleash Maneuvers",
+    "faction": "barony-of-letnev",
+    "description": "Before you roll dice during space combat, apply +X to the results of 1 of your ship's rolls, where X is the number of ship types you have in the combat.\n\nDuring movement, your non-fighter ships' move values are equal to the highest move value amongst moving ships in the system they started in.",
+    "synergy": ["warfare", "propulsion"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "deorbit-barrage",
+    "name": "Deorbit Barrage",
+    "faction": "clan-of-saar",
+    "description": "ACTION: Exhaust this card and spend any amount of resources to choose a planet up to 2 systems away from an asteroid field that contains your ships; roll a number of dice equal to the amount spent, and assign 1 hit to a ground force on that planet for each roll of 4 or greater.",
+    "synergy": ["warfare", "propulsion"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "iihq-modernization-breakthrough",
+    "name": "I.I.H.Q. Modernization",
+    "faction": "council-keleres",
+    "description": "When you gain this card, gain the Custodia Vigilia planet card and its legendary planet ability card.\n\nYou are neighbors with all players that have units or control planets in or adjacent to the Mecatol Rex system.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "resonance-generator",
+    "name": "Resonance Generator",
+    "faction": "crimson-rebellion",
+    "description": "During your tactical actions, apply +1 to the move value of each of your ships that start in your home system or in a system that contains an active breach.\n\nACTION: Exhaust this card to flip any breach or place an active breach in a non-home system that contains your units.",
+    "synergy": ["warfare", "propulsion"],
+    "startsUnlocked": true,
+    "source": "thunders-edge"
+  },
+  {
+    "id": "visionaria-select",
+    "name": "Visionaria Select",
+    "faction": "deepwrought-scholarate",
+    "description": "ACTION: Exhaust this card to allow each other player to spend 3 trade goods and give you 1 promissory note. Each player that does may research a non-faction, non-unit upgrade technology. You also gain each technology researched this way.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "stellar-genesis",
+    "name": "Stellar Genesis",
+    "faction": "embers-of-muaat",
+    "description": "When you gain this card, place the Avernus planet token into a non-home system that is adjacent to a planet you control; gain control of and ready it.\n\nAfter you move 1 of your war suns out of or through Avernus's system and into a non-home system, you may move the Avernus token with it.",
+    "synergy": ["warfare", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "auto-factories",
+    "name": "Auto-Factories",
+    "faction": "emirates-of-hacan",
+    "description": "When you produce 3 or more non-fighter ships, place 1 command token from your reinforcements into your fleet pool.",
+    "synergy": ["warfare", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "void-tether",
+    "name": "Void Tether",
+    "faction": "empyrean",
+    "description": "When you activate a system that contains or is adjacent to a unit or planet you control, you may place or move 1 of your void tether tokens onto a border that system shares with another system; other players do not treat those systems as adjacent to each other unless you allow it.",
+    "synergy": ["propulsion", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "bellum-gloriosum",
+    "name": "Bellum Gloriosum",
+    "faction": "federation-of-sol",
+    "description": "When you produce a ship that has capacity, you may also produce any combination of ground forces or fighters up to that ship's capacity; they do not count against your PRODUCTION limit.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "the-sowing",
+    "name": "The Sowing",
+    "faction": "firmament",
+    "description": "When you gain this card and at the start of the status phase, you may place up to three of your trade goods on this card.\n\nFlip this card if you become The Obsidian faction.",
+    "synergy": ["biotic", "cybernetic"],
+    "flipped": {
+      "id": "the-reaping",
+      "name": "The Reaping",
+      "description": "Place one trade good from the supply on this card each time you win a combat against a puppeted player.\n\nAt the start of the status phase, gain all trade goods on this card, then gain an equal number of trade goods from the supply."
+    },
+    "source": "thunders-edge"
+  },
+  {
+    "id": "particle-synthesis",
+    "name": "Particle Synthesis",
+    "faction": "ghosts-of-creuss",
+    "description": "Each wormhole in a system that contains your ships gains PRODUCTION 1 as if it were a unit you control.\n\nReduce the combined cost of units you produce in systems that contain wormholes by 1 for each wormhole in that system.",
+    "synergy": ["propulsion", "biotic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "fealty-uplink",
+    "name": "Fealty Uplink",
+    "faction": "l1z1x-mindnet",
+    "description": "When you gain control of a planet, place infantry from your reinforcements equal to that planet's influence value on that planet.",
+    "synergy": ["biotic", "warfare"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "the-icon",
+    "name": "The Icon",
+    "faction": "last-bastion",
+    "description": "When you produce ships, you may exhaust this card to place those ships in a system that contains one of your command tokens, at least one of your ground forces, and no other player's ships.",
+    "synergy": ["warfare", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "vaults-of-the-heir",
+    "name": "Vaults of the Heir",
+    "faction": "mahact-gene-sorcerers",
+    "description": "ACTION: Exhaust this card and purge 1 of your technologies to gain 1 relic.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "the-tables-grace",
+    "name": "The Table's Grace",
+    "faction": "mentak-coalition",
+    "description": "If you have the Cruiser II unit upgrade technology, flip this card and place it on top of Cruiser II.",
+    "synergy": ["biotic", "cybernetic"],
+    "flipped": {
+      "id": "corsair",
+      "name": "Corsair",
+      "description": "If the active system contains another player's non-fighter ships, this unit can move through systems that contain other players' ships.",
+      "cost": 2,
+      "combat": 6,
+      "move": 3,
+      "capacity": 2
+    },
+    "source": "thunders-edge"
+  },
+  {
+    "id": "mindsieve",
+    "name": "Mindsieve",
+    "faction": "naalu-collective",
+    "description": "When you would resolve the secondary ability of another player's strategy card, you may give them a promissory note to resolve it without spending a command token.",
+    "synergy": ["biotic", "warfare"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "absolute-synergy",
+    "name": "Absolute Synergy",
+    "faction": "naaz-rokha-alliance",
+    "description": "When you have 4 mechs in the same system, you may return 3 of those mechs to your reinforcements to flip this card and place it on top of your mech card.",
+    "synergy": ["propulsion", "cybernetic"],
+    "flipped": {
+      "id": "eidolon-maximum",
+      "name": "Eidolon Maximum",
+      "description": "This unit is both a ship and a ground force. It cannot be assigned hits from unit abilities. Repair it at the start of every combat round. Game effects cannot place or produce your mechs. When this unit is destroyed or removed, flip this card and return it to your play area.",
+      "combat": 4,
+      "move": 3,
+      "abilities": ["Sustain Damage"],
+      "notes": "Roll 4 dice for combat"
+    },
+    "source": "thunders-edge"
+  },
+  {
+    "id": "valefar-assimilator-z",
+    "name": "Valefar Assimilator Z",
+    "faction": "nekro-virus",
+    "description": "When you would gain another player's technology using one of your faction abilities, you may instead place one of your \"Z\" assimilator tokens on that player's faction sheet. Your flagship gains the text abilities of that faction's flagship in addition to its own.",
+    "synergy": null,
+    "source": "thunders-edge"
+  },
+  {
+    "id": "thunders-paradox",
+    "name": "Thunder's Paradox",
+    "faction": "nomad",
+    "description": "At the start of any player's turn, you may exhaust 1 of your agents to ready any other agent.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "data-skimmer",
+    "name": "Data Skimmer",
+    "faction": "ral-nel-consortium",
+    "description": "During the action phase, while you are not passed, other players' action cards are discarded on top of this card.\n\nWhen you pass, choose 1 action card on this card, add it to your hand, and discard the rest.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "norr-supremacy",
+    "name": "N'orr Supremacy",
+    "faction": "sardakk-norr",
+    "description": "After you win a combat, either gain 1 command token or research a unit upgrade technology.",
+    "synergy": ["warfare", "propulsion"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "slumberstate-computing",
+    "name": "Slumberstate Computing",
+    "faction": "titans-of-ul",
+    "description": "When COALESCENCE results in a ground combat, if you commit no other units, you may choose for your units to coexist instead. During the status phase, for each player you are coexisting with, you and that player each draw 1 action card.\n\nOther players may allow you to place a sleeper token on a planet they control.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "specialized-compounds",
+    "name": "Specialized Compounds",
+    "faction": "universities-of-jol-nar",
+    "description": "When you research technology using the \"Technology\" strategy card, you may exhaust a planet that has a technology specialty instead of spending resources; if you do you must research a technology of that colour.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "al-raith-ix-ianovar",
+    "name": "Al'Raith Ix Ianovar",
+    "faction": "vuil-raith-cabal",
+    "description": "This breakthrough causes The Fracture to enter play without a roll, if it is not already in play. After this card enters play, move up to 2 ingress tokens into systems that contain gravity rifts.\n\nApply +1 to the Move value of each of your ships that start their movement in The Fracture.",
+    "synergy": ["biotic", "warfare"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "imperator",
+    "name": "Imperator",
+    "faction": "winnu",
+    "description": "Apply +1 to the results of each of your unit's combat rolls for each \"Support for the Throne\" in your opponent's play area.\n\nAfter you activate a system that contains a legendary planet, apply +1 to the move value of 1 of your ships during this tactical action.",
+    "synergy": ["warfare", "propulsion"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "archons-gift",
+    "name": "Archon's Gift",
+    "faction": "xxcha-kingdom",
+    "description": "You can spend influence as if it were resources.\n\nYou can spend resources as if it were influence.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "yin-ascendant",
+    "name": "Yin Ascendant",
+    "faction": "yin-brotherhood",
+    "description": "When you gain this card or score a public objective, gain the alliance ability of a random, unused faction.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  },
+  {
+    "id": "deepgloom-executable",
+    "name": "Deepgloom Executable",
+    "faction": "yssaril-tribes",
+    "description": "You can allow other players to use your STALL TACTICS or SCHEMING faction abilities; when you do, you may resolve a transaction with that player. During the action phase, that transaction does not count against the once-per-player transactions limit for that turn.",
+    "synergy": ["biotic", "cybernetic"],
+    "source": "thunders-edge"
+  }
+]

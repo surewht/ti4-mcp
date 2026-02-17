@@ -1,0 +1,36 @@
+{
+  "factionId": "emirates-of-hacan",
+  "strengths": [
+    "Highest commodity count in the game",
+    "Universal trade capability — can trade with anyone regardless of neighbor status",
+    "Can trade action cards",
+    "Exceptional 'win from behind' capability",
+    "Strong objective adaptability and late-game swing potential"
+  ],
+  "weaknesses": [
+    "Trade strategy card often unavailable when you need it",
+    "Metagame collusion risks — table may deny you Trade",
+    "Mentak faction specifically counters your economy"
+  ],
+  "tips": [
+    "Prioritize Trade strategy card early game",
+    "Bank trade goods for 'spend' objectives rather than fleet building",
+    "Use planet resources for unit production; save trade goods for objectives",
+    "Build early relationships; maintain low threat perception",
+    "Tax neighbors for trade refreshes in mid-game",
+    "You have exceptional 'win from behind' capability — don't panic if behind early"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + Yellow (with yellow skip)",
+      "techs": ["Neural Motivator", "Dreadnought II", "Quantum Datahub Node", "Space Dock II", "Fighter II"],
+      "note": "Optimal path"
+    },
+    {
+      "name": "Blue + Green (with green skip)",
+      "techs": ["Neural Motivator", "Dreadnought II", "Production Biomes", "Infantry II", "Fighter II", "Carrier II"],
+      "note": "Alternative production-focused path"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

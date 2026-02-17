@@ -1,0 +1,39 @@
+{
+  "factionId": "barony-of-letnev",
+  "strengths": [
+    "Exceptional adaptability with multiple viable strategies",
+    "Superior home system economy (6 resources)",
+    "Non-Euclidian Shielding is one of the best faction techs",
+    "Munitions Reserves pairs well with large fleets"
+  ],
+  "weaknesses": [
+    "Risk of being perceived as threatening by the table",
+    "Winning space combats doesn't score points — not having enough infantry is the real weakness",
+    "Vulnerable to targeted abilities"
+  ],
+  "tips": [
+    "Multiple viable approaches: aggressive planet focus, tech accumulation, massive fleets, or economy building",
+    "Install a second space dock in your home system early",
+    "Use Munitions Reserves efficiently with large fleets of smaller ships",
+    "Emphasize friendship and diplomatic alliance value — your reputation as a threat works against you",
+    "Infantry is your Achilles' heel; never neglect ground forces"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + Yellow",
+      "techs": ["Carrier II", "Dreadnought II", "L4 Disruptors", "PDS II"],
+      "note": "Safe, versatile path"
+    },
+    {
+      "name": "Blue + Red (with skip)",
+      "techs": ["Dreadnought II", "Non-Euclidian Shielding", "War Sun"],
+      "note": "Strong aggressive path if you have a red skip"
+    },
+    {
+      "name": "Yellow + Blue",
+      "techs": ["Cruiser II", "Fighter II", "Carrier II", "Dreadnought II"],
+      "note": "Creative swarm build"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

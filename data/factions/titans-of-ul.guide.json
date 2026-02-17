@@ -1,0 +1,31 @@
+{
+  "factionId": "titans-of-ul",
+  "strengths": [
+    "Saturn Engine II Cruiser — arguably the best ship in the game for cost/value",
+    "Hel-Titan PDS combines defensive PDS with ground force capability",
+    "Commander provides passive income via steady resource stream",
+    "Promissory Note adds +1 to planet values and grants multi-trait flexibility",
+    "Terragenesis/Awaken loop creates PDS network from sleeper tokens"
+  ],
+  "weaknesses": [
+    "Command token drain — Awaken ability uses a lot of tokens",
+    "Perceived as one of the most powerful factions — table will target you",
+    "Meta-game vulnerability: being perceived as strongest works against you"
+  ],
+  "tips": [
+    "Unlock Hero early to enhance Elysium's production",
+    "Two cruisers have Speed 2 — use for territorial expansion flexibility",
+    "Terraform planets without sleeper tokens, then activate systems to convert tokens into PDS",
+    "Monitor command token consumption carefully — Awaken is powerful but expensive",
+    "Saturn Engine II Cruiser should be prioritized in tech path",
+    "Don't let your reputation as a top-tier faction paint a target — play diplomatically"
+  ],
+  "techPaths": [
+    {
+      "name": "Faction tech priority",
+      "techs": ["Saturn Engine II", "Hel-Titan II"],
+      "note": "Both faction unit upgrades are exceptional; Saturn Engine II is the priority"
+    }
+  ],
+  "sources": ["sirreileffects.com/titans-of-ul.html"]
+}

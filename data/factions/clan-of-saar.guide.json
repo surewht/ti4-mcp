@@ -1,0 +1,31 @@
+{
+  "factionId": "clan-of-saar",
+  "strengths": [
+    "No home system defense requirement — mobile space docks",
+    "Exceptional mobility and operational flexibility",
+    "Asteroid fields serve as strategic safe havens",
+    "Early-game race strategy: establish lead and win by round 5"
+  ],
+  "weaknesses": [
+    "Struggles against infantry clusters and PDS networks",
+    "Late-game disadvantage against massive specialized fleets",
+    "Warfare secondary doesn't benefit you (no home system production)"
+  ],
+  "tips": [
+    "Maintain constant movement to accumulate trade goods",
+    "Use asteroid fields as strategic safe havens for your space docks",
+    "Pursue VPs rapidly; Imperial strategy card is beneficial",
+    "Take Warfare personally when possible since secondary doesn't benefit you",
+    "Require substantial command tokens; Leadership is valuable",
+    "Build units during each activation to maintain numerical superiority",
+    "Maintain at least 2 space docks in play at all times"
+  ],
+  "techPaths": [
+    {
+      "name": "Yellow + Blue (with yellow skip)",
+      "techs": ["Chaos Mapping", "Floating Factory II", "Dreadnought II", "Fighter II", "Carrier II"],
+      "note": "Optimal path; Floating Factory II is essential"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

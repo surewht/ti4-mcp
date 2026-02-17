@@ -1,0 +1,31 @@
+{
+  "factionId": "naalu-collective",
+  "strengths": [
+    "Crystal Fighters + Neuroglaive is a powerful combination",
+    "Initiative 0 (Foresight) — always acts first, scores first",
+    "Free retreat mechanics",
+    "Fighter screens create near-impenetrable defenses"
+  ],
+  "weaknesses": [
+    "Early aggression vulnerability before fighter screen established",
+    "Graviton Laser System counters your fighters",
+    "Space Dock II counterplay (opponents building more)"
+  ],
+  "tips": [
+    "Establish dual space docks in a double-planet system adjacent to home for fighter production",
+    "Post-Neuroglaive, even limited fighters block movement and enable extortion",
+    "Operate exclusively with fighters and carriers as your ship types",
+    "Emphasize influence acquisition (fighters are cheap); take Leadership whenever accessible",
+    "Maintain ready command tokens for Foresight ability",
+    "Never surrender racial promissory note",
+    "Establish an early lead and maintain it — your initiative 0 means you score first"
+  ],
+  "techPaths": [
+    {
+      "name": "Green + Blue/Yellow",
+      "techs": ["Crystal Fighter II", "Neuroglaive", "Carrier II", "Space Dock II"],
+      "note": "Rush Crystal Fighter II (with blue skip) and Neuroglaive (with green skip)"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

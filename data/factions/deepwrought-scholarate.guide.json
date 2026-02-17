@@ -1,0 +1,33 @@
+{
+  "factionId": "deepwrought-scholarate",
+  "strengths": [
+    "Coexistence mechanic — commit ground forces without triggering combat",
+    "Ocean cards gained from coexistence function as 1/1 planet equivalents",
+    "Share Knowledge promissory note — lend tech to other players for diplomatic leverage",
+    "Radical Advancement — swap techs for higher-tier ones at status phase",
+    "Hydrothermal Mining — trade good per ocean card in play",
+    "Strong home system (Ikatena 4/4)",
+    "S-tier competitive rating (SCPT Dec 2025)"
+  ],
+  "weaknesses": [
+    "Coexistence means you don't control the planets you coexist on (for most purposes)",
+    "Ocean cards are lost if coexistence ends",
+    "Requires careful diplomatic management"
+  ],
+  "tips": [
+    "Use coexistence to spread across the map without triggering wars",
+    "Ocean cards provide extra economy — Hydrothermal Mining turns each into a trade good",
+    "Share Knowledge makes you a valuable ally — other players want your tech",
+    "Radical Advancement lets you swap lower-tier tech for better versions — plan your tech tree around this",
+    "Coexisting units count as controlling planets for scoring objectives — powerful for scoring",
+    "Starting Dreadnought gives early military presence; use it defensively"
+  ],
+  "techPaths": [
+    {
+      "name": "Faction tech focused",
+      "techs": ["Radical Advancement", "Hydrothermal Mining"],
+      "note": "Both faction techs are biotic; Radical Advancement enables tech path flexibility, Hydrothermal Mining provides economy"
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com/wiki/The_Deepwrought_Scholarate"]
+}

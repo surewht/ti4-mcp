@@ -1,0 +1,32 @@
+{
+  "factionId": "federation-of-sol",
+  "strengths": [
+    "Exceptional mobility and reinforcement via Orbital Drop",
+    "Strong planet control and retention with infantry focus",
+    "Mecatol Rex dominance potential",
+    "Flexible strategies for both aggressive and defensive play"
+  ],
+  "weaknesses": [
+    "Early carrier loss is devastating",
+    "Command token scarcity — always needs more tokens",
+    "Bombardment susceptibility",
+    "Struggles against other infantry factions late-game (Arborec)"
+  ],
+  "tips": [
+    "Prioritize Mecatol Rex acquisition and control",
+    "Aggressively take objective-relevant planets over first two rounds",
+    "Focus on high-influence planets to manage command token shortage",
+    "Use Orbital Drop to reinforce critical planets strategically",
+    "Deploy small mobile fleets with abundant infantry — hard to assault",
+    "Build second production center if possible",
+    "Never trade Political Secret objective"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + Green",
+      "techs": ["Gravity Drive", "Spec Ops II", "Hyper Metabolism", "Dreadnought II"],
+      "note": "Primary path; Gravity Drive and Spec Ops II are urgent priorities"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

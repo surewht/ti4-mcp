@@ -1,0 +1,38 @@
+{
+  "factionId": "yin-brotherhood",
+  "strengths": [
+    "Strong racial abilities and opening fleet",
+    "Exceptional ground combat with Indoctrination",
+    "Superior planet retention — very hard to dislodge",
+    "Inflicts significant damage at minimal cost"
+  ],
+  "weaknesses": [
+    "Low threat perception can make you a target of opportunity",
+    "PDS vulnerability",
+    "Late-game infantry flood factions counter you (Arborec, Sol)",
+    "Bombardment susceptibility (L1Z1X, Letnev, Muaat, Sardakk)"
+  ],
+  "tips": [
+    "Exploit your early advantage before opponents develop fleets",
+    "Rapidly acquire numerous planets plus Mecatol Rex",
+    "Prioritize influence (0/2 planets are optimal due to Indoctrination ability)",
+    "Deploy destroyers throughout your slice defensively; position flagship at home",
+    "Maintain an accessible 0/2 planet for Indoctrination after passing",
+    "Consistently select Leadership and Warfare when available",
+    "Threaten without following through — your ability to inflict damage cheaply is a deterrent",
+    "Indoctrination allows remarkable resource efficiency"
+  ],
+  "techPaths": [
+    {
+      "name": "Yellow + Green (with yellow skip)",
+      "techs": ["Transit Diodes", "Space Dock II", "Infantry II"],
+      "note": "Optimal; Transit Diodes + Space Dock II on Mecatol"
+    },
+    {
+      "name": "Green + Yellow (with red skip)",
+      "techs": ["Neural Motivator", "Cruiser II", "Infantry II", "Daxcive Animators"],
+      "note": "Alternative planet-sniping build"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

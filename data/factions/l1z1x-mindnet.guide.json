@@ -1,0 +1,37 @@
+{
+  "factionId": "l1z1x-mindnet",
+  "strengths": [
+    "Dual-capacity dreadnoughts with excellent combat rolls",
+    "Excellent starting fleet",
+    "Unmatched planet assault capability",
+    "Space dock takeover conversion mechanism",
+    "5-capacity flagship eliminates carrier necessity"
+  ],
+  "weaknesses": [
+    "High threat perception — table may gang up on you",
+    "PDS II vulnerability",
+    "Bombardment susceptibility",
+    "Potential early threat targeting"
+  ],
+  "tips": [
+    "Mid-game faction: build Super-Dreadnought II fleet and prepare for a big round 3",
+    "Continuously capture planets while maintaining objective and influence focus",
+    "Don't focus on holding every planet — recapture is viable with your combat power",
+    "5-capacity flagship + 2-capacity dreadnoughts eliminate the need for carriers",
+    "Excel at secret and Stage II objective acquisition",
+    "Stockpile action cards for big swing turns"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + any skip",
+      "techs": ["Super-Dreadnought II"],
+      "note": "Optimal; prioritize Super-Dreadnought II ASAP via double tech"
+    },
+    {
+      "name": "Yellow + Red/Green",
+      "techs": ["Inheritance Systems", "Super-Dreadnought II", "War Sun"],
+      "note": "Alternative if yellow skip available"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

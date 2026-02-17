@@ -1,0 +1,30 @@
+{
+  "factionId": "winnu",
+  "strengths": [
+    "Can take Mecatol Rex without spending 6 influence (custodians bypass)",
+    "Free space dock and PDS construction on Mecatol",
+    "Starting tech selection flexibility (choose 1 tech)"
+  ],
+  "weaknesses": [
+    "Extremely fragile outside of Mecatol focus",
+    "Best in 3-4 player games due to double strategy card mechanic",
+    "Lack of faction abilities makes you reliant on table dynamics"
+  ],
+  "tips": [
+    "Configure your slice with dual planetary systems along the Mecatol path, one with a yellow skip",
+    "Function as a Mecatol deterrent — your presence there discourages others",
+    "Attempt early Mecatol capture and retention while preparing alternative scoring",
+    "Round 1 priority: Warfare or Politics plus second carrier and infantry",
+    "Fortify home system with maximum infantry",
+    "Trade-based advantage is critical; request external help from other factions",
+    "Never establish an early lead — paint no target on yourself"
+  ],
+  "techPaths": [
+    {
+      "name": "Yellow + Blue (with yellow skip)",
+      "techs": ["Sarween Tools", "Space Dock II", "Gravity Drive", "Carrier II"],
+      "note": "Optimal; start Sarween Tools for unique faction strength"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

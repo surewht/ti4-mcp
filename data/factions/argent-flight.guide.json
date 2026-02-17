@@ -1,0 +1,30 @@
+{
+  "factionId": "argent-flight",
+  "strengths": [
+    "Destroyers have cargo capacity — can transport infantry and mechs",
+    "Flagship prevents enemy Space Cannon attacks — counters Xxcha and PDS networks",
+    "Zeal grants bonus votes scaling with player count",
+    "A+ first-round expansion: 3 capacity ships, 2 at speed 2, plus 5 infantry",
+    "Choose 2 of 3 starting techs (Neural Motivator, Sarween Tools, Plasma Scoring)"
+  ],
+  "weaknesses": [
+    "Going first in Agenda phase is actually disadvantageous",
+    "Leaders are lackluster compared to other factions",
+    "Modest home system production (3 production, 3 influence)"
+  ],
+  "tips": [
+    "Use destroyer capacity for flexible early expansion — they carry infantry unlike other factions",
+    "Flagship is your key asset against PDS-heavy factions",
+    "Starting tech choice is critical — adapt to your slice and neighbors",
+    "Strike Wing Alpha II improves destroyer combat and provides invasion defense",
+    "Holo-Lattice lets PDS/Space Docks block enemy movement — eliminates need for border patrols"
+  ],
+  "techPaths": [
+    {
+      "name": "Flexible start",
+      "techs": ["Strike Wing Alpha II", "Holo-Lattice"],
+      "note": "Choose starting tech based on slice; Strike Wing Alpha II and Holo-Lattice are your key faction techs"
+    }
+  ],
+  "sources": ["sirreileffects.com/argent-flight.html"]
+}

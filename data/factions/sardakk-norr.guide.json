@@ -1,0 +1,37 @@
+{
+  "factionId": "sardakk-norr",
+  "strengths": [
+    "Universal +1 combat roll bonus on all units",
+    "Flagship gives +1 to all your ships in the system",
+    "Exceptional dreadnought bombardment (4x2 hits)",
+    "Terrifying in combat once established"
+  ],
+  "weaknesses": [
+    "No starting tech — technology objectives are very hard",
+    "High threat perception",
+    "Specific faction disadvantages: Sol's Orbital Drop, Nekro stealing your bonuses"
+  ],
+  "tips": [
+    "Prioritize economy building — your starting position is disadvantaged",
+    "Realize Unrelenting ability through fighters and infantry; a double-dock system is beneficial",
+    "Sell racial promissory note across the table (especially pre-combat boost)",
+    "Preserve fleet integrity; losses eliminate your advantage",
+    "Win through efficient aggression and diplomacy",
+    "Convince the table you're relatively weak; plan a comeback victory",
+    "Zero synergy between racial techs and abilities — select tech path based on objectives and opponents",
+    "Tech skips provide exceptional value; pursue double-tech strategy targeting unit upgrades"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + Green",
+      "techs": ["Neural Motivator", "Fighter II", "Infantry II", "Carrier II"],
+      "note": "Optimal path"
+    },
+    {
+      "name": "Blue + Yellow",
+      "techs": ["Dreadnought II", "Carrier II", "Space Dock II"],
+      "note": "Alternative heavy-fleet path"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

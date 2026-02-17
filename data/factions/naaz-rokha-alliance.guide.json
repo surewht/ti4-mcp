@@ -1,0 +1,31 @@
+{
+  "factionId": "naaz-rokha-alliance",
+  "strengths": [
+    "Exploration dominance — Distant Suns lets mechs draw 2 exploration cards and pick 1",
+    "Fabrication converts relic fragments into relics or command tokens",
+    "Strong starting fleet (2 carriers, 1 destroyer, 2 fighters, 1 mech, 3 infantry) — better than 2c4i start",
+    "Eidolon mech functions as both a ship during transport and ground force during invasion",
+    "Agent allows re-exploration of already-discovered planets"
+  ],
+  "weaknesses": [
+    "Faction technologies are not strong",
+    "Depends on exploration luck to some degree",
+    "Mech-dependent — losing mechs hurts exploration advantage"
+  ],
+  "tips": [
+    "Always explore with mechs when possible — Distant Suns gives choice between 2 cards",
+    "Use Fabrication flexibly: 2 same-type fragments = relic, or 1 fragment = command token",
+    "Agent can re-explore planets — squeeze extra value from known worlds",
+    "Hero grants a free relic + 2 strategy card secondaries without tokens — massive swing turn",
+    "Commander unlocks with mechs in 3 systems — gives exploration card when capturing planets",
+    "Focus on archaeological advantages and diplomatic flexibility over raw tech"
+  ],
+  "techPaths": [
+    {
+      "name": "Exploration-focused",
+      "techs": ["Carrier II", "Infantry II"],
+      "note": "Core identity is exploration, not tech; prioritize unit upgrades that support mech deployment"
+    }
+  ],
+  "sources": ["sirreileffects.com/naaz-rokha.html"]
+}

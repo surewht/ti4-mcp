@@ -1,0 +1,35 @@
+{
+  "factionId": "embers-of-muaat",
+  "strengths": [
+    "Starts with a war sun — immediate board presence",
+    "Valuable promissory note (Fires of the Gashlai gives war sun tech)",
+    "Reasonable trading flexibility",
+    "War sun is a powerful negotiation tool"
+  ],
+  "weaknesses": [
+    "War sun is vulnerable to counter-attacks, Direct Hit, and targeted abilities",
+    "Mobile opponents can avoid the war sun entirely",
+    "Influence scarcity limits command token economy"
+  ],
+  "tips": [
+    "Use your war sun as a negotiation tool, not aggression — threaten, don't attack",
+    "Sell war sun technology (promissory note) across the table for VP advancement",
+    "Secure a second war sun by round 2",
+    "Accept command token limitations; use Star Forge only for war sun protection",
+    "Take Warfare strategy card to protect war sun from counter-attacks",
+    "Secure a slightly larger territory slice early, then defend with war suns and PDS"
+  ],
+  "techPaths": [
+    {
+      "name": "Blue + Yellow (with blue skip)",
+      "techs": ["Gravity Drive", "PDS II", "Graviton Laser System"],
+      "note": "Optimal path; mobility + PDS defense"
+    },
+    {
+      "name": "Red + Yellow (with red skip)",
+      "techs": ["War Sun II", "PDS II"],
+      "note": "Alternative; War Sun II not always worth it without skip"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

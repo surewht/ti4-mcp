@@ -1,0 +1,43 @@
+{
+  "factionId": "universities-of-jol-nar",
+  "strengths": [
+    "Maximum starting technology (4 techs)",
+    "Extreme flexibility — can pivot to any strategy",
+    "Round 2 unlimited tech acquisition capability",
+    "Effortless tech objectives",
+    "Superior starting fleet quality"
+  ],
+  "weaknesses": [
+    "Metagame vulnerability — everyone knows you're strong",
+    "Early aggression susceptibility (weak military early)",
+    "-1 combat modifier (Fragile) on all rolls",
+    "Specific threats: Saar, Sardakk, Nekro, Mentak, Yin"
+  ],
+  "tips": [
+    "Acquire one tech per turn while establishing a defensive position and scoring objectives",
+    "Build economy through trading (limited early planet control capability)",
+    "Sell racial promissory note every turn; be transparent about tech provision expectations",
+    "Round 2 War Sun is possible — withhold promissory note until after acquisition if pursuing this",
+    "Avoid early victory positioning; maintain friendly stance and execute trades",
+    "Infantry/ground combat is your critical weakness — always bring extra ground forces",
+    "The -1 combat modifier becomes less significant with larger vessels (dreadnoughts, war suns)"
+  ],
+  "techPaths": [
+    {
+      "name": "Safe",
+      "techs": ["Hyper Metabolism", "E-Res Siphons", "PDS II", "Dreadnought II"],
+      "note": "Safest path; consistent economy"
+    },
+    {
+      "name": "Aggressive",
+      "techs": ["War Sun", "E-Res Siphons", "Fighter II"],
+      "note": "Round 2 War Sun rush"
+    },
+    {
+      "name": "Economy",
+      "techs": ["Cruiser II", "E-Res Siphons", "Integrated Economy", "Infantry II"],
+      "note": "Production-focused alternative"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

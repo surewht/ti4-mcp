@@ -1,0 +1,31 @@
+{
+  "factionId": "mahact-gene-sorcerers",
+  "strengths": [
+    "Edict ability — winning combat grants command tokens from opponents, scaling with player count",
+    "Imperia — stolen tokens grant access to enemy commander abilities",
+    "Flagship Arvicon Rex gives +2 attack vs opponents without tokens in your fleet pool",
+    "Multiple commander abilities via stolen tokens multiplies tactical options"
+  ],
+  "weaknesses": [
+    "Hubris forces purging alliance promissory notes — removes diplomatic flexibility",
+    "Entire strategy requires winning fights; extended peace makes you weaker",
+    "Capped at one token per opponent — cannot infinitely scale",
+    "Slow starter; needs combat early to get rolling"
+  ],
+  "tips": [
+    "Start conservatively while leveraging Bio-Stims and Predictive Intelligence (starting techs)",
+    "Target multiple opponents early with limited conflicts to gather tokens before retaliation",
+    "Prioritize Cruiser II given modest starting unit capacity",
+    "Use Imperia strategically — borrowed commander abilities can swing games",
+    "Flagship is most effective against players you haven't beaten yet (no token in your pool)",
+    "Win-rate has skyrocketed recently as players learn to leverage the token economy"
+  ],
+  "techPaths": [
+    {
+      "name": "Mobility + Faction tech",
+      "techs": ["Cruiser II", "Crimson Legionnaire II", "Genetic Recombination"],
+      "note": "Cruiser II for mobility; faction tech for unit regeneration and voting control"
+    }
+  ],
+  "sources": ["sirreileffects.com/mahact-gene-sorcerers.html"]
+}

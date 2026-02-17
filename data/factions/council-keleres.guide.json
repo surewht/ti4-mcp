@@ -1,0 +1,33 @@
+{
+  "factionId": "council-keleres",
+  "strengths": [
+    "Council Patronage — replenish commodities at start of strategy phase, then gain 1 trade good",
+    "Law's Order — spend 1 influence to treat all laws as blank until end of turn",
+    "Choose home system from Mentak, Xxcha, or Argent Flight (unplayed faction)",
+    "Double production — resolve an additional Production ability in any system",
+    "Neighbors with all players adjacent to Mecatol Rex — diplomatic reach",
+    "Custodia Vigilia legendary planet prevents elimination"
+  ],
+  "weaknesses": [
+    "Dependent on which sub-faction home system you choose",
+    "Strategy varies wildly based on Mentak/Xxcha/Argent choice",
+    "Late tech selection (after all other players) can be a disadvantage"
+  ],
+  "tips": [
+    "Choose sub-faction based on table composition and available home systems",
+    "Council Patronage provides consistent economy — you always get commodities + 1 trade good",
+    "Law's Order is powerful during Agenda phase — ignore laws when they hurt you",
+    "Double production ability is a significant economy boost — use it every turn",
+    "You select starting tech AFTER all other players — use this information advantage",
+    "Custodia Vigilia makes you very hard to eliminate — play aggressively when you control it",
+    "Your Mecatol Rex adjacency gives unique diplomatic positioning"
+  ],
+  "techPaths": [
+    {
+      "name": "Depends on sub-faction",
+      "techs": [],
+      "note": "Tech path depends on whether you chose Mentak, Xxcha, or Argent home system. Adapt to starting tech selection."
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com", "spacecatspeaceturtles.podbean.com"]
+}

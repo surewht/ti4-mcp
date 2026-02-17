@@ -1,0 +1,31 @@
+{
+  "factionId": "nomad",
+  "strengths": [
+    "Starts with a flagship immediately — strong early military presence",
+    "Memoria flagship upgrades throughout the game",
+    "Four agents with time-travel themed abilities — exceptional flexibility",
+    "Strong home system with good production and influence",
+    "Memoria II is arguably a must-have upgrade (free with Commander unlocked)"
+  ],
+  "weaknesses": [
+    "Starting tech is only Sling Relay — slower economic development",
+    "Commander requires completing a secret objective to unlock",
+    "Reliant on flagship — losing it is devastating"
+  ],
+  "tips": [
+    "Leverage your immediate flagship for early territorial expansion",
+    "Use your four agents for market manipulation, troop positioning, and combat re-rolls",
+    "Pursue a secret objective early to unlock Commander (free Memoria II)",
+    "Memoria II is essential — great combat, move, capacity, and Anti-Fighter Barrage",
+    "Temporal Command Suite supports your multiple agents with production benefits",
+    "Protect your flagship at all costs — it's your faction identity"
+  ],
+  "techPaths": [
+    {
+      "name": "Flagship-focused",
+      "techs": ["Memoria II", "Temporal Command Suite"],
+      "note": "Memoria II is priority; Commander unlock makes it free. Temporal Command Suite supports agents."
+    }
+  ],
+  "sources": ["sirreileffects.com/nomad.html"]
+}

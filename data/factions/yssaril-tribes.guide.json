@@ -1,0 +1,32 @@
+{
+  "factionId": "yssaril-tribes",
+  "strengths": [
+    "Late-game action card accumulation creates a deterrent",
+    "Starting 5-influence home system gives flexibility",
+    "Superior opening fleet combined with fast flagship",
+    "Stall capability disrupts opponents significantly"
+  ],
+  "weaknesses": [
+    "Bad action card draws create vulnerability",
+    "Xxcha Instinct Training interferes with your plans",
+    "Rapid deck consumption if fighting on multiple fronts"
+  ],
+  "tips": [
+    "Prioritize Politics strategy card secondary — draw more action cards",
+    "Build a powerful action card collection aligned with objectives; identify synergies",
+    "Pursue influence emphasis for Imperial secondary access",
+    "Consider Warfare round 1 stalling and Leadership rounds 2-3 stalling when possible",
+    "Mecatol Rex is unnecessary for victory but situationally beneficial",
+    "Leverage your movement-2 flagship for sneaking into neighboring territory",
+    "Never surrender your promissory note (consider selling cards via Spy Net if trust exists)",
+    "Maintain low profile; end with a 4-point surprise victory"
+  ],
+  "techPaths": [
+    {
+      "name": "Green + Blue (with blue skip)",
+      "techs": ["Thermal Plating", "Hyper Metabolism", "Mageon Implants", "Gravity Drive", "Infantry II", "Fighter II"],
+      "note": "Optimal path; action card synergy + mobility"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

@@ -1,0 +1,34 @@
+{
+  "factionId": "arborec",
+  "strengths": [
+    "Flexible infantry production via Letani Warriors",
+    "Exceptional planet defense once established",
+    "Late-game snowballing with rapid unit recovery",
+    "Flagship produces 5 infantry on landing, great for recovery after losses"
+  ],
+  "weaknesses": [
+    "Slow opening, vulnerable to early aggression",
+    "Susceptible to bombardment (Letnev, Muaat, Sardakk, L1Z1X)",
+    "Weak against fast-expanding factions early (Creuss, Saar, Sol)"
+  ],
+  "tips": [
+    "Play cautiously early; prepare for Stage II objectives",
+    "Start as speaker for survival advantage if possible",
+    "Obtain Sarween Tools and a second carrier by round 2",
+    "Root into opponent territories strategically — your infantry production makes you hard to dislodge",
+    "Use flagship for recovery after losses with its 5 infantry capacity"
+  ],
+  "techPaths": [
+    {
+      "name": "Green + Yellow/Red (with green skip)",
+      "techs": ["Sarween Tools", "Letani Warrior II", "Cruiser II", "PDS II"],
+      "note": "Optimal path; leverages your green starting advantage"
+    },
+    {
+      "name": "Blue + Yellow",
+      "techs": ["Sarween Tools", "Carrier II", "Dreadnought II", "PDS II"],
+      "note": "Alternative if no green skip available"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

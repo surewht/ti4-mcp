@@ -1,0 +1,35 @@
+{
+  "factionId": "ghosts-of-creuss",
+  "strengths": [
+    "Extraordinary mobility via wormholes",
+    "High commodity count (4)",
+    "Home system imposes extra movement cost for opponents — hard to invade",
+    "Can appear anywhere on the map with wormhole placement"
+  ],
+  "weaknesses": [
+    "Threat perception risks if overextending",
+    "Early aggression vulnerability before wormhole network established",
+    "4-commodity count can interfere with trades (same value as some neighbors)"
+  ],
+  "tips": [
+    "Exercise early restraint — avoid overextension and aggression to prevent enemies ganging up",
+    "Don't establish an early lead; build a massive late-game position for Stage II and secret objectives",
+    "Prioritize influence for command tokens and opportunity readiness",
+    "Convince someone to play your racial promissory note early to avoid needing Wormhole Generator",
+    "Establish Creuss wormhole in optimal slice location, then construct a forward space dock",
+    "Depend heavily on action cards for surprise capabilities"
+  ],
+  "techPaths": [
+    {
+      "name": "Green + Blue",
+      "techs": ["Neural Motivator", "Infantry II", "Fighter II", "Carrier II", "Sarween Tools", "Dreadnought II"],
+      "note": "Optimal path"
+    },
+    {
+      "name": "Red + Blue",
+      "techs": ["Dimensional Splicer", "PDS II", "Dreadnought II", "Space Dock II"],
+      "note": "Aggressive alternative"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

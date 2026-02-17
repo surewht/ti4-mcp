@@ -1,0 +1,32 @@
+{
+  "factionId": "last-bastion",
+  "strengths": [
+    "Galvanize mechanic — galvanized units roll one additional die in combat and abilities",
+    "Phoenix Standard — after combat, galvanize one participating unit (snowball effect)",
+    "Liberate — gain control of planet readied if infantry >= resource value; otherwise place free infantry",
+    "Proxima Targeting VI cancels bombardment hits and grants bombardment ability",
+    "Helios space dock has production value = 2 + planet resource value"
+  ],
+  "weaknesses": [
+    "Only 1 commodity — weakest trade economy in the game",
+    "Home system is weak (Ordinian 0/0 + Revelation 1/2 space station)",
+    "Low complexity but requires understanding galvanize timing"
+  ],
+  "tips": [
+    "Galvanize snowballs — each combat makes your units stronger for the next",
+    "Liberate means taking planets is efficient: either they come readied or you get free infantry",
+    "Choose 1 blue or yellow starting tech — adapt to your slice",
+    "Proxima Targeting VI is key: cancels enemy bombardment and gives you bombardment",
+    "Raise the Standard promissory note lets allies galvanize in combat — sell it",
+    "Egeiro mech applies +1 per non-home controlled planet — scales with territory",
+    "Infantry-heavy strategy synergizes with Liberate ability"
+  ],
+  "techPaths": [
+    {
+      "name": "Faction tech priority",
+      "techs": ["Proxima Targeting VI"],
+      "note": "Choose 1 blue or yellow starting tech; Proxima Targeting VI is the key faction tech"
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com/wiki/Last_Bastion"]
+}

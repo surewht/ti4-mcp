@@ -1,0 +1,99 @@
+[
+  {
+    "id": "flagship",
+    "name": "Flagship",
+    "type": "flagship",
+    "abilities": ["Stats and abilities are faction-specific. Each faction has a unique flagship."],
+    "source": "base"
+  },
+  {
+    "id": "war-sun",
+    "name": "War Sun",
+    "type": "war-sun",
+    "cost": 12,
+    "combat": 3,
+    "move": 2,
+    "capacity": 6,
+    "abilities": ["SUSTAIN DAMAGE", "BOMBARDMENT 3 (x3)"],
+    "source": "base"
+  },
+  {
+    "id": "dreadnought-1",
+    "name": "Dreadnought I",
+    "type": "dreadnought",
+    "cost": 4,
+    "combat": 5,
+    "move": 1,
+    "capacity": 1,
+    "abilities": ["SUSTAIN DAMAGE", "BOMBARDMENT 5"],
+    "source": "base"
+  },
+  {
+    "id": "cruiser-1",
+    "name": "Cruiser I",
+    "type": "cruiser",
+    "cost": 2,
+    "combat": 7,
+    "move": 2,
+    "source": "base"
+  },
+  {
+    "id": "carrier-1",
+    "name": "Carrier I",
+    "type": "carrier",
+    "cost": 3,
+    "combat": 9,
+    "move": 1,
+    "capacity": 4,
+    "source": "base"
+  },
+  {
+    "id": "destroyer-1",
+    "name": "Destroyer I",
+    "type": "destroyer",
+    "cost": 1,
+    "combat": 9,
+    "move": 2,
+    "abilities": ["ANTI-FIGHTER BARRAGE 9 (x2)"],
+    "source": "base"
+  },
+  {
+    "id": "fighter-1",
+    "name": "Fighter I",
+    "type": "fighter",
+    "cost": 0.5,
+    "combat": 9,
+    "source": "base"
+  },
+  {
+    "id": "infantry-1",
+    "name": "Infantry I",
+    "type": "infantry",
+    "cost": 0.5,
+    "combat": 8,
+    "source": "base"
+  },
+  {
+    "id": "pds-1",
+    "name": "PDS I",
+    "type": "pds",
+    "abilities": ["SPACE CANNON 6", "PLANETARY SHIELD"],
+    "source": "base"
+  },
+  {
+    "id": "space-dock-1",
+    "name": "Space Dock I",
+    "type": "space-dock",
+    "abilities": ["PRODUCTION X (X = 2 + planet resource value)"],
+    "source": "base"
+  },
+  {
+    "id": "mech",
+    "name": "Mech",
+    "type": "mech",
+    "cost": 2,
+    "combat": 6,
+    "abilities": ["SUSTAIN DAMAGE"],
+    "source": "pok"
+  }
+]

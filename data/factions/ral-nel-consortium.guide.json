@@ -1,0 +1,33 @@
+{
+  "factionId": "ral-nel-consortium",
+  "strengths": [
+    "Miniaturization — structures can be transported by any ships (doesn't count against capacity)",
+    "Survival Instinct — reactively move 2 ships into a system an opponent activates",
+    "Linkship Destroyers trigger space cannon from carried structures — mobile PDS network",
+    "Start with 2 PDS — immediate defensive infrastructure",
+    "Signal Intrusion hero lets you 'unpass' at end of action phase with 2 extra command tokens",
+    "Low complexity despite unique mechanics"
+  ],
+  "weaknesses": [
+    "Transported structures cannot use abilities while in transit",
+    "Reactive movement is limited to 2 ships from adjacent systems",
+    "Standard home system economy"
+  ],
+  "tips": [
+    "Carry PDS on destroyers — they trigger space cannon from the structures, creating a mobile defense network",
+    "Survival Instinct lets you reinforce threatened systems reactively — opponents must account for this",
+    "Miniaturization lets you reposition space docks and PDS freely — build forward and retreat if needed",
+    "Hero (Signal Intrusion) is game-changing: unpass late to take key actions while others watch",
+    "Choose 1 red or green starting tech — adapt to table composition",
+    "Nanomachines tech lets you place free PDS, repair all units, and cycle action cards",
+    "Promissory note lets allies move your structures — use for diplomatic leverage"
+  ],
+  "techPaths": [
+    {
+      "name": "Faction tech priority",
+      "techs": ["Nanomachines"],
+      "note": "Choose 1 red or green starting tech; Nanomachines provides PDS placement, repair, and card cycling"
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com/wiki/The_Ral_Nel_Consortium"]
+}

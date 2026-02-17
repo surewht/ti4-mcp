@@ -1,0 +1,33 @@
+{
+  "factionId": "mentak-coalition",
+  "strengths": [
+    "Mirror Computing is one of the best techs in the game",
+    "Exceptional tech/ability synergy",
+    "Effective faction abilities (Pillage, Ambush)",
+    "Fast tech acquisition pathway"
+  ],
+  "weaknesses": [
+    "Nuisance perception — Pillage makes enemies",
+    "PDS II vulnerability",
+    "Nekro flagship is a hard counter",
+    "Naalu fighter swarms are problematic"
+  ],
+  "tips": [
+    "Rush Cruiser II technology (potentially round 1 with green skip)",
+    "Leverage mobility for powerful system acquisition",
+    "Preserve trade goods until Mirror Computing, then rebuild fleet and pursue 'spend' objectives",
+    "Play aggressively early while you have advantage; bank trade goods for Stage II",
+    "Defend home system with flagship and PDS II network",
+    "Frequently select Trade strategy card and refresh all neighbors",
+    "Balance Pillage usage — it makes enemies. Also use it to gain commodities not just trade goods",
+    "Use Promise of Protection to secure at least one ally in larger games"
+  ],
+  "techPaths": [
+    {
+      "name": "Yellow + Red (with green skip)",
+      "techs": ["Cruiser II", "PDS II", "Mirror Computing"],
+      "note": "Optimal path; Mirror Computing is the key tech"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

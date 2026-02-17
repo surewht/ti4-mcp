@@ -1,0 +1,601 @@
+[
+  {
+    "id": "object-of-the-game",
+    "title": "Object of the Game",
+    "content": "Throughout a game of Twilight Imperium, players will barter, plot, and wage war upon one another to complete objectives. The first player to accumulate 10 victory points claims the Imperial Throne and wins the game.",
+    "relatedKeywords": ["victory points", "objectives", "winning"]
+  },
+  {
+    "id": "game-round",
+    "title": "Game Round",
+    "content": "Twilight Imperium is played over a series of game rounds, each of which contains four phases resolved in order: 1) Strategy Phase, 2) Action Phase, 3) Status Phase, 4) Agenda Phase. The agenda phase is only added after a player gains control of Mecatol Rex. These phases repeat in successive game rounds until one player accumulates 10 victory points.",
+    "subsections": [
+      {
+        "id": "strategy-phase",
+        "title": "Strategy Phase",
+        "content": "During the strategy phase, players take turns selecting a strategy card. Beginning with the speaker and continuing clockwise, each player chooses one of the strategy cards from the common play area and places it faceup near his faction sheet. Each strategy card has an initiative number (1-8) that determines turn order during the action phase. After each player has chosen a strategy card, the speaker places one trade good on each unchosen strategy card.",
+        "relatedKeywords": ["speaker", "initiative order", "strategy cards"]
+      },
+      {
+        "id": "action-phase",
+        "title": "Action Phase",
+        "content": "During the action phase, players take turns in initiative order. The active player performs one action per turn. After each player has taken a turn, player turns begin again in initiative order. The action phase does not end until each player has passed. There are three types of actions: tactical actions, strategic actions, and component actions. A player cannot pass until he has performed his strategic action.",
+        "relatedKeywords": ["tactical action", "strategic action", "component action", "initiative order", "pass"]
+      },
+      {
+        "id": "status-phase",
+        "title": "Status Phase",
+        "content": "During the status phase, players perform the following steps in order: 1) Score Objectives - each player may score up to one public and one secret objective. 2) Reveal Public Objective - speaker flips next unrevealed objective. 3) Draw Action Cards - each player draws one. 4) Remove Command Tokens - from the game board to reinforcements. 5) Gain and Redistribute Command Tokens - each player gains two, then may redistribute between pools. 6) Ready Cards - all exhausted cards are readied. 7) Repair Units - damaged units are repaired. 8) Return Strategy Cards - to common play area.",
+        "relatedKeywords": ["objectives", "action cards", "command tokens", "ready", "repair"]
+      },
+      {
+        "id": "agenda-phase",
+        "title": "Agenda Phase",
+        "content": "After the custodians token has been removed from Mecatol Rex, the agenda phase is added to each round for the remainder of the game. Players vote on two agendas. For each agenda: 1) Reveal Agenda - speaker draws and reads an agenda card. 2) Vote - starting left of the speaker clockwise, each player exhausts planets for votes equal to their influence value, committing votes to a single outcome. 3) Resolve Outcome - the outcome with the most votes is resolved. Ties are decided by the speaker. After two agendas, all planets are readied.",
+        "relatedKeywords": ["voting", "influence", "speaker", "laws", "directives", "Mecatol Rex"]
+      }
+    ],
+    "relatedKeywords": ["strategy phase", "action phase", "status phase", "agenda phase"]
+  },
+  {
+    "id": "tactical-action",
+    "title": "Tactical Action",
+    "content": "A tactical action allows a player to move ships, initiate combat, invade planets, produce units, and otherwise interact with the game board. A player performs a tactical action by spending a command token from his tactic pool.",
+    "subsections": [
+      {
+        "id": "activation",
+        "title": "1. Activation",
+        "content": "The active player activates a system by taking a command token from his tactic pool and placing it on that system. That system is the active system for the remainder of the tactical action. A player cannot activate a system that already contains one of his command tokens. A player cannot activate a system if he does not have any command tokens in his tactic pool.",
+        "relatedKeywords": ["command tokens", "tactic pool", "active system"]
+      },
+      {
+        "id": "movement",
+        "title": "2. Movement",
+        "content": "The active player may move ships into the active system from any number of other systems. Each ship has a move value indicating how far it can travel. A ship must end its movement in the active system. A ship cannot pass through a system that contains another player's ships (excluding fighters). A player cannot move units out of a system that contains one of his command tokens. Ships with capacity can transport fighters and ground forces up to their capacity value.",
+        "relatedKeywords": ["move value", "transport", "capacity", "ships"]
+      },
+      {
+        "id": "space-combat",
+        "title": "3. Space Combat",
+        "content": "If multiple players have ships in the active system, they resolve space combat. The active player is the attacker, the other player is the defender. Combat rounds: i) Anti-Fighter Barrage, ii) Announce Retreats, iii) Make Combat Rolls - roll one die per ship, hits produced on results >= combat value, iv) Assign Hits - each player destroys one of his ships per hit opponent produced, v) Retreat - if announced, move all ships to an adjacent valid system. Combat continues until one side is eliminated or retreats.",
+        "relatedKeywords": ["attacker", "defender", "combat rolls", "hits", "retreat"]
+      },
+      {
+        "id": "invasion",
+        "title": "4. Invasion",
+        "content": "The active player can invade planets in the active system. Steps: i) Bombardment - active player may use Bombardment abilities against planets with enemy ground forces. ii) Commit Ground Forces - move ground forces from space area to planets. iii) Space Cannon Defense - defending PDS may fire at invading ground forces. iv) Ground Combat - resolved in rounds like space combat (Make Combat Rolls, Assign Hits) until one side eliminated. v) Establish Control - active player gains control of invaded planets with his ground forces, takes planet card exhausted, enemy structures destroyed.",
+        "relatedKeywords": ["bombardment", "ground forces", "ground combat", "establish control", "planet cards"]
+      },
+      {
+        "id": "production",
+        "title": "5. Production",
+        "content": "The active player can produce units using space docks in the active system. To produce units, spend resources equal to the combined cost of chosen units. Ships are placed in space area, ground forces on the planet with the space dock. Each space dock has a production value limiting the number of units it can produce. Units with a cost showing two icons (fighters, infantry) give two units for the indicated cost, but each counts against production limit. Blockaded space docks (enemy ships in system) cannot produce ships but can produce ground forces.",
+        "relatedKeywords": ["space dock", "resources", "production value", "blockade"]
+      }
+    ],
+    "relatedKeywords": ["activation", "movement", "space combat", "invasion", "production"]
+  },
+  {
+    "id": "strategic-action",
+    "title": "Strategic Action",
+    "content": "When a player performs a strategic action, he resolves the primary ability of his strategy card. After resolving, each other player may resolve the secondary ability of that strategy card. The active player cannot resolve the secondary ability of his own strategy card. After all players have had the opportunity, the card is exhausted (flipped facedown). A player cannot pass during the action phase unless his strategy card is exhausted.",
+    "relatedKeywords": ["primary ability", "secondary ability", "strategy cards", "exhausted"]
+  },
+  {
+    "id": "component-action",
+    "title": "Component Action",
+    "content": "A component action is an action printed on a game component (action cards, faction sheets, technology cards). Each of these effects is preceded by the word 'Action.' A player performs a component action during his turn of the action phase.",
+    "relatedKeywords": ["action cards", "faction abilities", "technology"]
+  },
+  {
+    "id": "command-tokens",
+    "title": "Command Tokens",
+    "content": "Command tokens are placed in three pools on the command sheet: Tactic Pool (spent to perform tactical actions), Fleet Pool (ship silhouette faceup - the number of tokens equals the maximum number of non-fighter ships a player can have in each system), Strategy Pool (spent to use secondary abilities of strategy cards). During the status phase, each player gains 2 command tokens and may redistribute all tokens between pools.",
+    "relatedKeywords": ["tactic pool", "fleet pool", "strategy pool", "fleet supply"]
+  },
+  {
+    "id": "units",
+    "title": "Units",
+    "content": "There are three categories of units: Ships (spacefaring units for combat and expansion - Flagship, War Sun, Dreadnought, Cruiser, Carrier, Destroyer, Fighter), Ground Forces (infantry and mechs for invading and defending planets), and Structures (Space Dock and PDS, military installations). A player's unused units and command tokens form his reinforcements.",
+    "relatedKeywords": ["ships", "ground forces", "structures", "reinforcements"]
+  },
+  {
+    "id": "unit-abilities",
+    "title": "Unit Abilities",
+    "content": "Units may have keyword abilities printed on faction sheets and unit upgrade technology cards.",
+    "subsections": [
+      {
+        "id": "sustain-damage",
+        "title": "Sustain Damage",
+        "content": "A unit with Sustain Damage can become damaged to cancel one hit. A damaged unit is turned on its side but otherwise functions normally. A damaged unit cannot use Sustain Damage again until repaired (during the status phase or by another game effect).",
+        "relatedKeywords": ["damage", "repair", "hits"]
+      },
+      {
+        "id": "planetary-shield",
+        "title": "Planetary Shield",
+        "content": "If a unit has Planetary Shield, the planet where that unit is located is not an eligible target for other units' Bombardment abilities.",
+        "relatedKeywords": ["bombardment", "PDS"]
+      },
+      {
+        "id": "production-ability",
+        "title": "Production",
+        "content": "A unit with the Production ability can produce new units. The ability is followed by a value which dictates the maximum number of units that unit can produce. Space Dock I has PRODUCTION X where X = 2 + resource value of the planet.",
+        "relatedKeywords": ["space dock", "producing units"]
+      },
+      {
+        "id": "anti-fighter-barrage",
+        "title": "Anti-Fighter Barrage",
+        "content": "Used during the Anti-Fighter Barrage step of the first round of space combat. Roll dice equal to the number in parentheses; each result equal to or greater than the ability value produces a hit. Hits from Anti-Fighter Barrage can only be assigned to fighters.",
+        "relatedKeywords": ["space combat", "fighters", "destroyer"]
+      },
+      {
+        "id": "bombardment",
+        "title": "Bombardment",
+        "content": "Used during the Bombardment step of an invasion. Roll dice; each result equal to or greater than the ability value produces a hit. Hits can only be assigned to ground forces on the planet being bombarded. If multiple planets exist, the active player chooses which units bombard which planets before rolling. Bombardment is blocked by Planetary Shield.",
+        "relatedKeywords": ["invasion", "ground forces", "planetary shield"]
+      },
+      {
+        "id": "space-cannon",
+        "title": "Space Cannon",
+        "content": "Used at two times: 1) Space Cannon Offense - after Movement step, all players' units in the active system may fire at the active player's ships. 2) Space Cannon Defense - during invasion, the defending player's units on the planet may fire at invading ground forces. Roll dice; each result >= ability value produces a hit.",
+        "relatedKeywords": ["PDS", "offense", "defense", "invasion"]
+      }
+    ],
+    "relatedKeywords": ["sustain damage", "planetary shield", "production", "anti-fighter barrage", "bombardment", "space cannon"]
+  },
+  {
+    "id": "capacity",
+    "title": "Capacity",
+    "content": "The number of fighters and ground forces in the space area of a system cannot exceed the combined capacity of that player's ships in that system. Ground forces on planets do not count against capacity. If a player's fighters and ground forces in space exceed capacity, excess units are destroyed. During combat, capacity can be temporarily exceeded, but excess units are destroyed at the end of combat.",
+    "relatedKeywords": ["transport", "fighters", "ground forces", "ships"]
+  },
+  {
+    "id": "wormholes",
+    "title": "Wormholes",
+    "content": "Some system tiles contain wormholes. There are two types of basic wormholes: alpha and beta. Systems that contain identical wormholes are adjacent to one another for all purposes.",
+    "relatedKeywords": ["adjacency", "movement", "alpha", "beta"]
+  },
+  {
+    "id": "anomalies",
+    "title": "Anomalies",
+    "content": "Some system tiles contain anomalies that restrict movement and have special rules.",
+    "subsections": [
+      {
+        "id": "asteroid-field",
+        "title": "Asteroid Field",
+        "content": "A ship cannot move through or into an asteroid field.",
+        "relatedKeywords": ["movement"]
+      },
+      {
+        "id": "nebula",
+        "title": "Nebula",
+        "content": "A ship cannot move through a nebula but may move into one. A defender's ship in a nebula applies +1 to each combat roll result. A ship moving out of a nebula has a move value of 1.",
+        "relatedKeywords": ["movement", "combat", "defender"]
+      },
+      {
+        "id": "supernova",
+        "title": "Supernova",
+        "content": "A ship cannot move through or into a supernova.",
+        "relatedKeywords": ["movement"]
+      },
+      {
+        "id": "gravity-rift",
+        "title": "Gravity Rift",
+        "content": "A ship that moves through or out of a gravity rift applies +1 to its move value and then rolls one die; on a result of 1-3, the ship is destroyed.",
+        "relatedKeywords": ["movement", "destruction"]
+      }
+    ],
+    "relatedKeywords": ["asteroid field", "nebula", "supernova", "gravity rift", "movement"]
+  },
+  {
+    "id": "planets",
+    "title": "Planets",
+    "content": "Each planet card displays two values: resources (yellow, left) and influence (blue, right). Resources are spent to produce units and technologies. Influence is spent to gain command tokens and vote during the agenda phase. When a player gains control of a planet, he takes its card exhausted. Most planets outside home systems have a trait: cultural, hazardous, or industrial. Some planets have a technology specialty that can be exhausted to ignore a matching tech prerequisite.",
+    "relatedKeywords": ["resources", "influence", "traits", "technology specialty", "control"]
+  },
+  {
+    "id": "spending-resources-and-influence",
+    "title": "Spending Resources and Influence",
+    "content": "To spend a planet's resources or influence, a player exhausts that planet's card. Excess resources or influence from a planet are lost. Players may spend trade goods as either one resource or one influence.",
+    "relatedKeywords": ["exhaust", "resources", "influence", "trade goods"]
+  },
+  {
+    "id": "exhausted-and-readied",
+    "title": "Exhausted and Readied Cards",
+    "content": "Many cards have a readied and exhausted state. An exhausted card is flipped facedown, indicating its values and abilities cannot be used. During the status phase, all exhausted cards are readied (flipped faceup).",
+    "relatedKeywords": ["status phase", "planet cards", "technology cards"]
+  },
+  {
+    "id": "technology",
+    "title": "Technology",
+    "content": "Technologies provide powerful abilities and unit upgrades. There are four basic colors: green (biotic), blue (propulsion), yellow (cybernetic), red (warfare). To research a technology, a player must own matching technologies for each prerequisite symbol. Unit upgrade technologies may have multi-color prerequisites and do not satisfy prerequisites. When a unit upgrade is gained, it replaces the corresponding unit stats for all units of that type. Some planets have technology specialties that can be exhausted to ignore a matching prerequisite.",
+    "relatedKeywords": ["research", "prerequisites", "unit upgrades", "biotic", "propulsion", "cybernetic", "warfare", "technology specialty"]
+  },
+  {
+    "id": "objectives",
+    "title": "Objectives",
+    "content": "Players gain victory points by completing objectives. Public objectives can be scored by any player; a player cannot score public objectives if he does not control all planets in his home system. Secret objectives are hidden and only scored by their owner. A player can have a maximum of 3 total secret objectives (scored + unscored). Each player can score one public and one secret objective during each status phase and each step of the action phase. Some objectives have 'Action Phase' timing and can be scored immediately after fulfilling requirements.",
+    "relatedKeywords": ["victory points", "public objectives", "secret objectives", "scoring", "home system"]
+  },
+  {
+    "id": "trade-goods-and-commodities",
+    "title": "Trade Goods and Commodities",
+    "content": "Trade goods are universal currency that can be spent as one resource or one influence. Commodities have no inherent value but become trade goods when given to another player (the token is flipped). When a player replenishes commodities (usually via the Trade strategy card), he takes tokens up to his faction's commodity value. A player cannot have more commodities than his printed value.",
+    "relatedKeywords": ["resources", "influence", "trade", "transactions"]
+  },
+  {
+    "id": "neighbors-and-transactions",
+    "title": "Neighbors, Transactions, and Deals",
+    "content": "Two players are neighbors if either has a unit or controls a planet in a system adjacent to a system where the other has a unit or planet. During the active player's turn, he may negotiate one transaction with each neighbor per turn, exchanging trade goods and commodities. Binding deals involve effects resolvable immediately and must be honored. Non-binding deals involve future promises and need not be honored.",
+    "relatedKeywords": ["neighbors", "trade goods", "commodities", "binding deals", "non-binding deals"]
+  },
+  {
+    "id": "action-cards",
+    "title": "Action Cards",
+    "content": "Players accumulate action cards throughout the game. Each card indicates when it can be used. A player can have a maximum of 7 action cards in hand; excess must be discarded. When used, reveal the card, resolve its effect, and discard. Cards beginning with 'Action' can be used as component actions during a player's turn.",
+    "relatedKeywords": ["hand limit", "component action", "timing"]
+  },
+  {
+    "id": "custodians-of-mecatol-rex",
+    "title": "Custodians of Mecatol Rex",
+    "content": "The custodians token represents caretakers that safeguard Mecatol Rex. Players may move ships into the Mecatol Rex system freely, but cannot land ground forces while the custodians token is present. To remove it, the active player must spend 6 influence immediately before landing ground forces. When removed, the player places it in his play area and gains 1 victory point. This also triggers the addition of the agenda phase to each subsequent game round.",
+    "relatedKeywords": ["Mecatol Rex", "victory points", "agenda phase", "influence"]
+  },
+  {
+    "id": "agenda-types",
+    "title": "Agenda Types",
+    "content": "Agendas are either directives or laws. Directives resolve the winning outcome and are discarded immediately. Laws with a 'For' outcome or elections become permanent (placed in common play area). Laws with an 'Against' outcome resolve the text and are discarded. Vote types: 'For or Against', 'Elect Player', or 'Elect Planet'.",
+    "relatedKeywords": ["directives", "laws", "voting", "elect"]
+  },
+  {
+    "id": "promissory-notes",
+    "title": "Promissory Notes",
+    "content": "Each player begins with 5 promissory note cards (4 color-specific, 1 faction-specific). Promissory notes help negotiate by creating enforceable contracts. A player can offer a promissory note as part of a transaction. A player cannot resolve his own promissory notes. When resolved, the card is usually returned to its original owner. Only one promissory note can be traded per transaction. Players may also trade promissory notes received from other players without the original owner's permission.",
+    "relatedKeywords": ["transactions", "negotiations", "deals"]
+  },
+  {
+    "id": "speaker",
+    "title": "Speaker",
+    "content": "The speaker is determined randomly at the start of the game. The speaker goes first during the strategy phase, reveals public objectives, draws agendas, and breaks ties during agenda voting. The speaker token can change hands through the Politics strategy card.",
+    "relatedKeywords": ["strategy phase", "agenda phase", "initiative"]
+  },
+  {
+    "id": "three-four-player-rules",
+    "title": "Three and Four Player Rules",
+    "content": "In 3-4 player games: each player chooses a second strategy card during the strategy phase (in a second clockwise pass). A player's lowest-numbered strategy card determines initiative order. A player cannot pass until both strategy cards are exhausted.",
+    "relatedKeywords": ["player count", "strategy cards", "initiative order"]
+  },
+  {
+    "id": "imperium-rex",
+    "title": "Imperium Rex",
+    "content": "The game can end early if no player has scored 10 victory points and there are no more objectives to reveal. When the speaker would reveal an objective but cannot, the game immediately ends and the player with the most victory points wins. If tied, the tied player earliest in initiative order wins.",
+    "relatedKeywords": ["winning", "game end", "tiebreaker"]
+  },
+  {
+    "id": "fleet-pool",
+    "title": "Fleet Pool",
+    "content": "The number of tokens in a player's fleet pool (ship silhouette faceup) is the maximum number of non-fighter ships he can have in each system. If a player has more ships than fleet pool tokens in a system, he must return excess ships to reinforcements.",
+    "relatedKeywords": ["command tokens", "ships", "fleet supply"]
+  },
+  {
+    "id": "reinforcements",
+    "title": "Reinforcements",
+    "content": "A player's personal supply of unused units and unused command tokens is his reinforcements. When producing units or gaining command tokens, they come from reinforcements. If a player has no units of a type in reinforcements, he may remove one from a system without his command token and return it to reinforcements. Fighter and infantry tokens from the supply can substitute for plastic figures but must be accompanied by at least one matching plastic figure.",
+    "relatedKeywords": ["production", "command tokens", "units"]
+  },
+  {
+    "id": "retreat",
+    "title": "Retreat",
+    "content": "During space combat, a player may announce a retreat during the Announce Retreat step. The retreat occurs at the end of that combat round. To retreat, the player moves all ships to an adjacent system that does not contain another player's ships and contains either a planet he controls or one of his units. If the destination system does not contain one of his command tokens, he must place one from reinforcements. Ground forces on planets that the retreating player wants to bring must be moved to the space area during the announce step.",
+    "relatedKeywords": ["space combat", "adjacent system", "command tokens"]
+  },
+  {
+    "id": "frequently-overlooked-rules",
+    "title": "Frequently Overlooked Rules",
+    "content": "Key rules often missed: Players do not resolve the agenda phase until any player has removed the custodians token from Mecatol Rex. Players cannot pass until they have performed a strategic action. Players cannot use the secondary ability of their own strategy cards. Players can produce at space docks in the active system even without moving or invading. Ships can only drop off ground forces in the active system. Players can exceed capacity during combat (excess destroyed after). Players are limited to 2 PDS and 1 space dock per planet. Unit upgrade tech does not satisfy prerequisites. Only one promissory note per transaction. Upgraded PDS in a system with a wormhole can fire through the wormhole. Maximum 3 secret objectives total.",
+    "relatedKeywords": ["PDS limit", "space dock limit", "capacity", "prerequisites", "promissory notes"]
+  },
+  {
+    "id": "leaders",
+    "title": "Leaders",
+    "content": "Each faction has three leaders with unique abilities. Leaders are placed on corresponding leader sheet slots during setup, showing their slot icon side. There are three types of leaders: Agent, Commander, and Hero.",
+    "source": "pok",
+    "subsections": [
+      {
+        "id": "agent",
+        "title": "Agent",
+        "content": "Each agent ability exhausts that leader card when used. Agents are readied along with all other exhausted cards during the 'Ready Cards' step of the status phase. Agent abilities are available from the beginning of the game.",
+        "relatedKeywords": ["exhaust", "ready", "status phase"]
+      },
+      {
+        "id": "commander",
+        "title": "Commander",
+        "content": "Each commander has a passive ability that begins the game locked. Each commander card has an unlock goal (e.g., 'Have 3 scored objectives'). When the goal is fulfilled, the player flips the card to unlock the ability. A commander's ability can be shared with another faction by trading the 'Alliance' promissory note.",
+        "relatedKeywords": ["unlock", "alliance", "promissory notes", "passive ability"]
+      },
+      {
+        "id": "hero",
+        "title": "Hero",
+        "content": "Each hero has an exceptionally powerful, once-per-game ability that begins the game locked. Each hero card has an unlock goal. When fulfilled, the player flips the card and the ability becomes available. After using a hero's ability, the hero card is purged.",
+        "relatedKeywords": ["unlock", "purge", "once per game"]
+      }
+    ],
+    "relatedKeywords": ["agent", "commander", "hero", "leader sheet", "unlock"]
+  },
+  {
+    "id": "mech-units",
+    "title": "Mech Units",
+    "content": "Mechs are highly specialized faction-specific ground forces. Each player starts with their mech unit card in play. Mechs are produced like other units and are available from the beginning of the game. Mechs are a type of ground force — they can be transported and participate in ground combat. Each faction's mechs have unique stats and abilities shown on their mech unit card. Mech unit cards are not technology cards.",
+    "source": "pok",
+    "relatedKeywords": ["ground forces", "ground combat", "transport", "production"]
+  },
+  {
+    "id": "deploy",
+    "title": "Deploy",
+    "content": "Some mech unit cards and other components have a 'Deploy' ability. Deploy abilities provide an alternative way to place units on the game board without using normal production. These abilities can only be resolved to place a unit that is in a player's reinforcements, and each deploy ability can be resolved only once per timing window.",
+    "source": "pok",
+    "relatedKeywords": ["mech units", "reinforcements", "placement"]
+  },
+  {
+    "id": "exploration",
+    "title": "Exploration",
+    "content": "When a player takes control of a planet that is not already controlled by another player, they explore that planet. To explore, draw a card from the exploration deck matching that planet's type (cultural, industrial, or hazardous) and resolve its effect. The card is then discarded unless it is a relic fragment or has an 'Attach' ability. Planets without a type cannot be explored. If a player gains control of multiple planets at the same time, they choose the order to explore them, resolving each card before exploring the next planet.",
+    "source": "pok",
+    "subsections": [
+      {
+        "id": "frontier-tokens",
+        "title": "Frontier Tokens",
+        "content": "During setup, a frontier token is placed in each non-home system that does not contain planets, including anomalies. Players with the 'Dark Energy Tap' technology can explore frontier tokens. When explored, the frontier token is discarded and a card is drawn from the frontier exploration deck. If an ability instructs a player to explore a frontier token, they may do so even without 'Dark Energy Tap'.",
+        "relatedKeywords": ["dark energy tap", "anomalies", "setup"]
+      },
+      {
+        "id": "attached-cards",
+        "title": "Attached Cards",
+        "content": "When a player draws an exploration card with the 'Attach' header, they attach it to the explored planet's card by sliding it underneath. The matching attachment token is placed on that planet on the game board. That planet is modified by the card's values and abilities. Attached cards remain attached if another player takes control of that planet.",
+        "relatedKeywords": ["planet cards", "attachment tokens", "control"]
+      },
+      {
+        "id": "relic-fragments",
+        "title": "Relic Fragments and Relics",
+        "content": "When a player draws an exploration card containing 'relic fragment' in the title, they place it faceup in their play area. Three relic fragments of the same type (cultural, industrial, hazardous, or frontier) can be purged to gain a relic. When gaining a relic, draw a card from the relic deck and place it faceup in the play area. Relic fragments can be exchanged as part of a transaction, but relics cannot.",
+        "relatedKeywords": ["purge", "transactions", "play area"]
+      }
+    ],
+    "relatedKeywords": ["planet types", "cultural", "industrial", "hazardous", "frontier", "relic fragments", "relics", "attach"]
+  },
+  {
+    "id": "purge",
+    "title": "Purge",
+    "content": "If an ability instructs a player to purge a component, that component is removed from the game permanently and returned to the game box. Purged components cannot be used again for the remainder of the game.",
+    "source": "pok",
+    "relatedKeywords": ["removed from game", "hero", "relic fragments"]
+  },
+  {
+    "id": "capture",
+    "title": "Capture",
+    "content": "Some abilities instruct a player to capture a unit, placing it on the capturing player's faction sheet until returned. If at least one of a player's space docks is being blockaded, they cannot capture units from the player who is blockading them.",
+    "source": "pok",
+    "subsections": [
+      {
+        "id": "capture-ships-mechs",
+        "title": "Capturing Non-Fighter Ships and Mechs",
+        "content": "Captured non-fighter ships and mechs are placed on the capturing player's faction sheet. They can be returned if: the capturing player agrees as part of a transaction, an ability allows returning them, or the captured player blockades a space dock of the capturing player. When returned, they are placed in the reinforcements of their original owner.",
+        "relatedKeywords": ["faction sheet", "transactions", "blockade", "reinforcements"]
+      },
+      {
+        "id": "capture-fighters-infantry",
+        "title": "Capturing Fighters and Ground Forces",
+        "content": "Captured fighters and ground forces are returned to their reinforcements, and the capturing player places a fighter or infantry token from the supply on their faction sheet instead. These captured tokens do not belong to any player color, cannot be returned via transaction or blockade, and remain on the faction sheet until an ability returns them. When returned, they are placed in the supply.",
+        "relatedKeywords": ["supply", "tokens", "reinforcements"]
+      }
+    ],
+    "relatedKeywords": ["blockade", "faction sheet", "reinforcements", "transactions"]
+  },
+  {
+    "id": "legendary-planets",
+    "title": "Legendary Planets",
+    "content": "Some planets are legendary planets, indicated by the legendary icon on their system tile. When a player takes control of a legendary planet, they also place its legendary planet ability card in their play area. Each legendary planet ability card has a unique ability that can be used at the end of that player's turn. If a player gains control of an exhausted legendary planet ability card, it remains exhausted.",
+    "source": "pok",
+    "relatedKeywords": ["planets", "control", "play area", "exhaust"]
+  },
+  {
+    "id": "wormhole-nexus",
+    "title": "Wormhole Nexus",
+    "content": "The wormhole nexus is a unique two-sided system tile where numerous wormholes converge. It is treated as part of the game board. It begins the game inactive (showing only a gamma wormhole), meaning it is only adjacent to tiles that have a gamma wormhole. The first time a player moves or places a unit into the nexus or gains control of its planet (Mallice), it becomes active — the tile is flipped to show three wormholes (alpha, beta, and gamma), making it adjacent to all tiles containing those wormhole types. If the nexus would become active after a ship moves to it during Movement, it does not become active until the end of that step. The nexus is on the edge of the game board for objective-scoring purposes.",
+    "source": "pok",
+    "relatedKeywords": ["wormholes", "gamma", "alpha", "beta", "Mallice", "adjacency"]
+  },
+  {
+    "id": "hyperlanes",
+    "title": "Hyperlanes",
+    "content": "When playing with five, seven, or eight players, the galaxy is set up with hyperlane tiles. Each contiguous line created by one or more hyperlane tiles is a hyperlane. System tiles connected by a hyperlane are adjacent for all purposes. Hyperlane tiles are not systems — they cannot have units on them and cannot be targets for effects or abilities. Hyperlanes improve balance in starting positions, so players do not receive extra trade goods for particular starting positions.",
+    "source": "pok",
+    "relatedKeywords": ["adjacency", "setup", "five players", "seven players", "eight players", "game board"]
+  },
+  {
+    "id": "the-long-war",
+    "title": "The Long War",
+    "content": "When playing with Prophecy of Kings, new avenues to gaining victory points become available and scoring some objectives becomes easier. Players who wish to play a longer game may use the 14-space side of the victory point track instead of the standard 10-point track.",
+    "source": "pok",
+    "relatedKeywords": ["victory points", "game length", "objectives"]
+  },
+  {
+    "id": "gamma-wormholes",
+    "title": "Gamma Wormholes",
+    "content": "Prophecy of Kings introduces gamma wormholes in addition to the base game's alpha and beta wormholes. Like other wormholes, systems containing gamma wormholes are adjacent to all other systems containing gamma wormholes. Three generic gamma wormhole tokens and one Creuss-specific gamma wormhole token are included. The Ghosts of Creuss receive their Creuss gamma wormhole token as an additional component.",
+    "source": "pok",
+    "relatedKeywords": ["wormholes", "adjacency", "Ghosts of Creuss", "wormhole nexus"]
+  },
+  {
+    "id": "dimensional-tear-tokens",
+    "title": "Dimensional Tear Tokens",
+    "content": "Dimensional tear tokens are used by the Vuil'raith Cabal (and potentially the Nekro Virus if they copy the technology). If a space dock that has a dimensional tear token under it is destroyed, the dimensional tear token is removed from the board. The Nekro Virus have their own dimensional tear tokens that they can use if they copy the Vuil'raith Cabal's 'Dimensional Tear II' unit upgrade technology card.",
+    "source": "pok",
+    "relatedKeywords": ["Vuil'raith Cabal", "Nekro Virus", "space dock", "wormholes"]
+  },
+  {
+    "id": "alliance-promissory-note",
+    "title": "Alliance Promissory Note",
+    "content": "Each player receives an 'Alliance' promissory note with the Prophecy of Kings expansion. When a player gives their Alliance note to another player, the receiving player can use the giving player's commander ability (if unlocked). The Mahact Gene-Sorcerers are the exception — during setup they purge their Alliance promissory note, and other players cannot give them Alliance notes.",
+    "source": "pok",
+    "relatedKeywords": ["promissory notes", "commander", "Mahact Gene-Sorcerers", "transactions"]
+  },
+  {
+    "id": "ion-storm-token",
+    "title": "Ion Storm Token",
+    "content": "The ion storm token is a double-sided exploration token. One side shows an alpha wormhole, the other a beta wormhole. The token flips when ships use its wormholes, changing which wormhole type it provides.",
+    "source": "pok",
+    "relatedKeywords": ["wormholes", "alpha", "beta", "exploration"]
+  },
+  {
+    "id": "destroyed-planet-token",
+    "title": "Destroyed Planet Token",
+    "content": "When a planet is destroyed (e.g., by the Stellar Converter relic), its planet card is purged and the destroyed planet token is placed on it. Players cannot land units on a destroyed planet.",
+    "source": "pok",
+    "relatedKeywords": ["purge", "planet cards", "Stellar Converter"]
+  },
+  {
+    "id": "pok-setup-changes",
+    "title": "Prophecy of Kings Setup Changes",
+    "content": "When playing with PoK, setup is modified: Each player takes their mech unit card, three leader cards, and leader sheet. Leaders are placed on the leader sheet (agent top, commander middle, hero bottom) showing slot icon side. The wormhole nexus is placed gamma-side up in the common play area with 3 gamma wormhole tokens nearby. A frontier token is placed on each non-home system with no planets. Relic and exploration decks are shuffled separately. Certain base game agenda cards are removed. The 'Diplomacy' and 'Construction' strategy cards are replaced with revised versions. Specific factions take additional components (Creuss: gamma token; Vuil'raith/Nekro: dimensional tear tokens; Titans: sleeper tokens; Muaat: supernova tile).",
+    "source": "pok",
+    "relatedKeywords": ["setup", "leaders", "mech units", "frontier tokens", "wormhole nexus", "exploration"]
+  },
+  {
+    "id": "thunders-edge-expedition",
+    "title": "Thunder's Edge Expedition",
+    "content": "Players may venture to Thunder's Edge to unlock powerful new abilities. Thunder's Edge begins the game in play, off the board, with its expedition side (divided into six slices) faceup. At the end of a player's turn, they may commit to the expedition by choosing an unclaimed slice and paying its cost, placing a control token on that slice. The six costs are: Spend 5 Resources, Spend 5 Influence, Spend 3 Trade Goods, Discard 2 Action Cards, Discard 1 Unscored Secret Objective, Exhaust 1 Technology Specialty Planet. Once claimed, that slice cannot be claimed by another player. The first time a player claims a slice, they gain their faction's breakthrough. A player can claim multiple slices but must choose a different unclaimed slice each time. When all slices are claimed, the expedition is complete: the player who claimed the final slice flips Thunder's Edge to its planet side and places it in a system of their choice that does not contain a planet, a supernova, or a printed wormhole. Then, the player with the most control tokens on the expedition places that many infantry on Thunder's Edge. Thunder's Edge cannot be placed in The Fracture.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["breakthroughs", "control tokens", "Thunder's Edge", "planet"]
+  },
+  {
+    "id": "breakthroughs-and-synergy",
+    "title": "Breakthroughs and Synergy",
+    "content": "A breakthrough is a faction-specific component, most commonly gained by interacting with Thunder's Edge. A breakthrough gives each faction a unique new ability and grants synergy between two technology colors. Synergy links two colors of technology — a technology or technology specialty of a synergy color can count as the other color instead, for researching technology and scoring technology-related objectives. A technology can only count as one color at any given time, not both. Each time a breakthrough is gained, if The Fracture is not already in play, the player rolls one die. On a roll of 1 or 10, they put The Fracture into play.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["technology", "expedition", "The Fracture", "synergy", "prerequisites"]
+  },
+  {
+    "id": "the-fracture",
+    "title": "The Fracture",
+    "content": "The Fracture is an enigmatic area of space not connected to the rest of the galaxy. When it comes into play, the player that brought it into play places it along any edge of the game board (position varies by player count) and places neutral units as indicated on the back of The Fracture's tiles. If brought into play by a breakthrough roll, the rolling player places ingress tokens: for each synergy color on their breakthrough, they choose three systems containing matching technology specialties and place ingress tokens there (max one per system, max six total). If brought into play by another ability or a breakthrough without synergy (e.g., Nekro Virus), the player places ingress tokens in four systems with different technology specialties. An ingress token is also placed in the Thunder's Edge system (if in play) or the Mecatol Rex system (if expedition incomplete). The Fracture's systems are not adjacent to systems they physically touch. A system with an ingress is adjacent to each Fracture system containing an egress. Ingress systems are not adjacent to other ingress systems, and egress systems are not adjacent to other egress systems. Each Fracture planet has a relic icon. Styx has both a relic icon and is legendary.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["ingress", "egress", "neutral units", "relic", "legendary planets", "Styx", "adjacency"]
+  },
+  {
+    "id": "neutral-units",
+    "title": "Neutral Units",
+    "content": "Neutral units are non-player forces that engage a player in combat if the player moves units to the planet or space area those neutral units occupy. Neutral units' combat stats are on the neutral unit reference card, and their rolls are made by any player other than the active player. Hits are assigned to neutral units in order presented on the reference card, prioritizing units lower on the card first (e.g., destroyers before cruisers). Neutral units always use unit abilities when they can (sustain damage, space cannon, etc.) but cannot use any other abilities. Neutral units do not take turns or perform other game functions unless stated by rule or ability. They count as other player's units for resolving abilities and game effects. There is no 'neutral player' — if a decision must be made for a neutral unit, the speaker makes it.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["The Fracture", "combat", "unit abilities", "speaker"]
+  },
+  {
+    "id": "space-stations",
+    "title": "Space Stations",
+    "content": "Some systems contain space stations. A player gains control of a space station when they are the only player with ships in its system. They do not lose control if those ships move out. Each space station has a corresponding planet card, gained exhausted and spent/readied as if it were a planet. However, structures and ground forces cannot be placed on or committed to space stations, and they do not count as planets for voting, objectives, or controlling a home system. A player's commodity value is increased by 1 for each space station they control (commerce tokens placed in commodity pool as reminder). A player that controls a space station can resolve transactions with other players that control space stations, even if not neighbors. Players can exhaust a space station at any time to convert their commodities to trade goods. A system with a space station and no planets gets a frontier token during setup when playing with PoK.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["control", "commodities", "trade goods", "transactions", "frontier tokens"]
+  },
+  {
+    "id": "entropic-scar",
+    "title": "Entropic Scar Anomaly",
+    "content": "An entropic scar is a new kind of anomaly. All unit abilities (Sustain Damage, Production, Planetary Shield, Space Cannon, Bombardment, Deploy, and Anti-Fighter Barrage) cannot be used by or against units inside of an entropic scar. Text abilities are unaffected. Additionally, wormholes that would be placed inside of an entropic scar are discarded instead. At the start of the status phase, a player that has ships in an entropic scar can spend a token from their strategy pool to gain one of their faction-specific technologies.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["anomaly", "unit abilities", "wormholes", "faction technology", "strategy pool"]
+  },
+  {
+    "id": "dual-planet-traits",
+    "title": "Dual Planet Traits",
+    "content": "Some planets have two planet traits (e.g., Cultural/Hazardous, Industrial/Cultural, Hazardous/Industrial). These planets count as having both traits. When exploring one of these planets with Prophecy of Kings, the exploring player can choose to draw a card matching either of the planet's traits (but not both).",
+    "source": "thunders-edge",
+    "relatedKeywords": ["planets", "traits", "exploration", "cultural", "hazardous", "industrial"]
+  },
+  {
+    "id": "dual-specialties",
+    "title": "Dual Technology Specialties",
+    "content": "Some planets have two technology specialties. These planets can be exhausted when researching technology to satisfy either or both prerequisites simultaneously.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["planets", "technology", "prerequisites", "research"]
+  },
+  {
+    "id": "coexist",
+    "title": "Coexist",
+    "content": "Some game effects allow a player's units to coexist with other units on a planet. Coexisting units do not trigger combat. The player whose units triggered coexistence does not gain or retain control of the planet; if they already controlled it, the other player gains control (exhausted). Coexisting structures are always blockaded. If additional units are placed/produced/moved onto the planet, they also coexist. If a player's coexisting units become the only units on a planet, that player gains control. Coexisting units can be bombarded — the bombarding player chooses which units target which player's forces, rolling separately. Combat can be initiated against coexisting units by committing to the planet; the activating player may choose not to engage and leave coexistence intact. A coexisting player can end coexistence by activating the system and committing their coexisting units against the planet. When scoring objectives, a coexisting player counts as controlling the planet they coexist on; they do not count as controlling it for any other game ability or effect. Multiple players can coexist on one planet.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["ground forces", "control", "bombardment", "ground combat", "objectives", "Deepwrought Scholarate"]
+  },
+  {
+    "id": "galactic-events",
+    "title": "Galactic Events",
+    "content": "Galactic events are optionally selected during game setup and can change the parameters of play. After the speaker is determined (Step 1), players may as a group optionally choose or draw at random a galactic event card to put into play. Some galactic events may further modify setup. Each event is different and contains its own rules. Advanced player groups are free to play with more than one galactic event. The 'Wild, Wild Galaxy' and 'Age of Exploration' events can be played without Prophecy of Kings by ignoring PoK-specific text.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["setup", "game variant", "Minor Factions"]
+  },
+  {
+    "id": "galvanize",
+    "title": "Galvanize",
+    "content": "Galvanize is a mechanic associated with the Last Bastion faction. When a unit is galvanized, a galvanize token is placed on it. A galvanized unit gains +1 to its combat rolls. Galvanize tokens are removed during the status phase when units are repaired.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["Last Bastion", "combat", "tokens"]
+  },
+  {
+    "id": "alliance-game-variant",
+    "title": "Alliance Game Variant",
+    "content": "An optional play mode introduced in Codex II (Affinity) where players form teams of two against 1-3 other alliances. Can be played with 4, 6, or 8 players. The 14-point victory track is used — one player must have 14 VP and their ally must have at least 10 VP for that alliance to win.",
+    "source": "codex-2",
+    "subsections": [
+      {
+        "id": "alliance-setup",
+        "title": "Setup",
+        "content": "When choosing factions, each player must also be assigned an ally. Each player purges their 'Alliance' promissory note and takes the Alliance reference card that corresponds to their ally. Each player flips their commander to its unlocked side at the start of the game. Note: While the Mahact Gene-Sorcerers do not have an 'Alliance' promissory note, they do have an Alliance reference card."
+      },
+      {
+        "id": "alliance-transactions",
+        "title": "Transactions",
+        "content": "When you exchange commodities with your ally, they do not convert into trade goods. While you may receive promissory notes from your ally as part of a transaction, you cannot resolve those promissory notes."
+      },
+      {
+        "id": "alliance-movement-control",
+        "title": "Movement and Control",
+        "content": "Your ships may move through and into systems that contain your ally's ships without triggering space combat. Your ground forces may land on planets that contain your ally's ground forces without triggering ground combat or gaining control. When a game effect allows redistribution of command tokens, you may also exchange planet cards with your ally (if receiving player has ground forces/structures there). You may transport your ally's fighters and ground forces using your units with capacity. When your ally activates a system, you may simultaneously perform a tactical action into that system."
+      },
+      {
+        "id": "alliance-combat",
+        "title": "Combat and Unit Abilities",
+        "content": "During combat where a player and their ally both have units present, both participate and their rolls are combined. When an opposing force produces hits against allies, the allies decide together which units take the hits; if they cannot agree, the active player assigns. Your unit abilities (space cannon, planetary shield, etc.) do not affect your ally."
+      },
+      {
+        "id": "alliance-abilities",
+        "title": "Abilities and Effects",
+        "content": "Your ally's units count as neither your units nor as 'other players' units for resolving game effects. Abilities that trigger when activating a system containing another player's units/planets/tokens do not trigger for allies. Agent abilities can be used on your ally. Your ally's planets count as your planets for resolving abilities, but you cannot exhaust them and they do not count for scoring objectives, scoring the Imperial VP, or unlocking leaders."
+      },
+      {
+        "id": "alliance-elimination",
+        "title": "Elimination",
+        "content": "A player cannot be eliminated as long as their ally controls a planet."
+      }
+    ],
+    "relatedKeywords": ["alliance", "teams", "victory points", "transactions", "movement", "combat", "promissory notes"]
+  },
+  {
+    "id": "alliance-reference-cards",
+    "title": "Alliance Reference Cards",
+    "content": "Alliance reference cards provide a reference for when playing with the Prophecy of Kings 'Alliance' promissory note. They are also used in the Alliance game variant, some Galactic Events, and with the Yin Brotherhood's breakthrough card. When gained for any reason other than a reference to an 'Alliance' promissory note, the gaining player places the card in their play area and can use its ability.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["alliance", "promissory notes", "Yin Brotherhood"]
+  },
+  {
+    "id": "diplomacy-token",
+    "title": "Diplomacy Token",
+    "content": "The diplomacy token is a player aid included to facilitate ease of play when resolving simple uses of the 'Diplomacy' strategy card's primary ability. It represents a command token from each player. It cannot be used to bring a player above the component limit for command tokens and should not be used when interacting with abilities that remove command tokens.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["Diplomacy", "strategy cards", "command tokens"]
+  },
+  {
+    "id": "te-setup-changes",
+    "title": "Thunder's Edge Setup Changes",
+    "content": "When playing with Thunder's Edge, setup is modified: Each player takes their faction's breakthrough card. The Thunder's Edge token is placed expedition-side faceup in the common play area. The three Fracture tiles are set aside (may come into play during the game). The 'Construction' and 'Warfare' strategy cards are replaced with revised versions. The Mecatol Rex system tile is replaced with the version that has a legendary planet icon. If not using PoK, remove all Leaders, Mechs, and Exploration Cards, as well as the 'Cultural Exchange Program' galactic event. Specific factions take additional components (Muaat: Avernus token; Nekro: Assimilator Z tokens + Helios tokens/cards; Empyrean: Void Tether tokens; Crimson Rebellion: Sever + Breach tokens; Deepwrought: Ocean cards; Firmament: Plot cards + Obsidian components; Last Bastion: Galvanize tokens + Helios tokens/cards). If using PoK, replace the Jol-Nar 'Ta Zern' leader with 'Agnlan Oln'.",
+    "source": "thunders-edge",
+    "relatedKeywords": ["setup", "breakthroughs", "The Fracture", "galactic events", "Thunder's Edge"]
+  }
+]

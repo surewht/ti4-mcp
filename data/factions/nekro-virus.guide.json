@@ -1,0 +1,34 @@
+{
+  "factionId": "nekro-virus",
+  "strengths": [
+    "Technology acquisition through combat — no need to research",
+    "Exceptional command token wealth",
+    "Late-game dominance via token abundance and stolen tech/unit upgrades",
+    "Psychological deterrent — opponents fear losing tech to you"
+  ],
+  "weaknesses": [
+    "Table will target you — everyone fears Nekro",
+    "Technology objectives are harder (you can't 'research')",
+    "Specific faction threats: Letnev, Winnu, Xxcha flagships",
+    "Pick-target abilities are very dangerous"
+  ],
+  "tips": [
+    "Avoid technology-hunting unless it directly supports objective scoring",
+    "Prioritize economy building via Trade, Leadership, or Technology secondaries",
+    "Always select Trade when available; request neighboring destroyer positioning with favorable deals",
+    "Acquire Mecatol Rex and key systems — opponents must attack you to take them back",
+    "Execute controlled bullying while avoiding multi-front warfare",
+    "Sell racial promissory note to ensure an ally's security",
+    "Position flagship with ground force stacks for optimal defense (home system or Mecatol)",
+    "Carefully select which racial technologies to copy — prioritize synergy",
+    "Pursue Transit Diodes and any infantry upgrades"
+  ],
+  "techPaths": [
+    {
+      "name": "Combat-acquired",
+      "techs": ["Transit Diodes", "Infantry upgrades", "Faction-specific tech via combat"],
+      "note": "You don't research — pick techs from combat. Prioritize unit upgrades and movement tech."
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

@@ -1,0 +1,32 @@
+{
+  "factionId": "firmament",
+  "strengths": [
+    "Plots Within Plots — score other players' secret objectives as plot cards",
+    "Mid-game transformation to The Obsidian side with new abilities",
+    "Information advantage — you see and can score others' secrets",
+    "Black Ops promissory note creates plot cards for trade goods/tokens",
+    "Nocturne — cannot be chosen during setup (unique draft mechanic)"
+  ],
+  "weaknesses": [
+    "High complexity — transformation timing is critical",
+    "Plot cards don't score VPs directly — delayed payoff",
+    "Requires at least one plot card to transform to The Obsidian",
+    "Modest starting fleet and economy (3 commodities)"
+  ],
+  "tips": [
+    "Focus on accumulating plot cards before transforming to The Obsidian",
+    "Black Ops is valuable diplomatic currency — other players get tokens/goods, you get plot cards",
+    "Time your transformation carefully — The Obsidian side should unlock at the right moment",
+    "You have information advantage from seeing which secret objectives others score",
+    "Choose starting tech (1 green or yellow, no prerequisites) based on your transformation plan",
+    "The Sowing breakthrough lets you invest trade goods for double return later"
+  ],
+  "techPaths": [
+    {
+      "name": "Flexible start",
+      "techs": [],
+      "note": "Choose 1 green or yellow tech; path depends on transformation timing and table dynamics"
+    }
+  ],
+  "sources": ["twilight-imperium.fandom.com/wiki/The_Firmament_/_The_Obsidian"]
+}

@@ -1,0 +1,32 @@
+{
+  "factionId": "vuil-raith-cabal",
+  "strengths": [
+    "Devour — capture opponent non-structure units destroyed in combat",
+    "Amalgamation — produce captured unit types without spending resources",
+    "Riftmeld — use captured units to bypass tech prerequisites",
+    "Dimensional Tears under space docks create gravity rifts only you move freely through",
+    "Psychological pressure — opponents fear losing ships to your capture mechanic"
+  ],
+  "weaknesses": [
+    "Limited starting expansion — 1 space dock, modest units",
+    "Fixed production limit of 5 per dock (not planet value +2)",
+    "Success relies on accumulating captured units — poor combat luck is devastating",
+    "If opponents blockade a space dock, you must return all captured units from that dock"
+  ],
+  "tips": [
+    "Focus on early combat engagements to start capturing opponent units",
+    "Establish multiple Dimensional Tears to unlock Commander (requires units in 3 gravity rifts)",
+    "Use Riftmeld to convert captured units into tech prerequisites — enormous efficiency gain",
+    "Dimensional Tear II is a key upgrade for production and rift expansion",
+    "Protect space docks from blockade — losing captured units is catastrophic",
+    "The psychological threat of capture is as valuable as the actual mechanic"
+  ],
+  "techPaths": [
+    {
+      "name": "Combat-acquired via Riftmeld",
+      "techs": ["Dimensional Tear II"],
+      "note": "Use Riftmeld to bypass prerequisites; prioritize unit upgrades. Dimensional Tear II is essential."
+    }
+  ],
+  "sources": ["sirreileffects.com/vuilraith.html"]
+}

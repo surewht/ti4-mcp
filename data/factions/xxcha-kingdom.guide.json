@@ -1,0 +1,37 @@
+{
+  "factionId": "xxcha-kingdom",
+  "strengths": [
+    "Exceptional trade and negotiation tools",
+    "Extremely difficult to assault — PDS network + abilities",
+    "Quash (cancel an agenda) and Instinct Training are sellable services",
+    "Flagship is the primary offensive weapon"
+  ],
+  "weaknesses": [
+    "Diplomacy strategy card often unavailable early when you need it most",
+    "Duranium Armor disadvantage — opponents sustain through your PDS",
+    "Ground force clusters bypass your space defenses",
+    "Low mobility without tech investment"
+  ],
+  "tips": [
+    "Execute defensive abilities but maintain scoring focus — don't over-invest in defense",
+    "Acquire flagship rapidly but protect it from early loss",
+    "Secure a slightly expanded territory slice with PDS network lock-down",
+    "Emphasize influence acquisition (command tokens fuel ability usage)",
+    "Commercialize abilities: sell Quash and Instinct Training for trade goods/favors",
+    "Pursue Cruiser II for mobility or place Space Dock IIs on borders for expansion",
+    "Defensive abilities define the faction; offense comes exclusively from flagship"
+  ],
+  "techPaths": [
+    {
+      "name": "Yellow + Green (with yellow skip)",
+      "techs": ["Neural Motivator", "Cruiser II", "Nullification Field", "PDS II", "Instinct Training", "Infantry II"],
+      "note": "Standard defensive path"
+    },
+    {
+      "name": "Yellow + Blue (with blue skip R1)",
+      "techs": ["Gravity Drive", "Plasma Scoring", "PDS II", "Nullification Field", "Dreadnought II", "Fighter II"],
+      "note": "Optimal; round 1 Gravity Drive solves mobility"
+    }
+  ],
+  "sources": ["extraboard.net/test/ti4/strategy.html"]
+}

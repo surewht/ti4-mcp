@@ -1,0 +1,30 @@
+{
+  "factionId": "empyrean",
+  "strengths": [
+    "Early exploration advantage — Dark Energy Tap lets you explore frontier tokens immediately",
+    "Voidborn allows unrestricted nebula movement",
+    "Aetherstream tech gives cruisers exceptional speed (7+ with other movement tech)",
+    "Two faction promissory notes instead of one — superior negotiating power",
+    "Commander enables retaliation/rebuild after an attack"
+  ],
+  "weaknesses": [
+    "Commander unlock is difficult (must be neighbors with all other players)",
+    "Middling home system production — great influence but limited resources",
+    "Relies on diplomatic positioning more than raw power"
+  ],
+  "tips": [
+    "Exploit frontier exploration early — you have a 1-2 round head start on frontier relics",
+    "Your promissory notes are mutually beneficial — use them as diplomatic currency",
+    "Pivot toward anomaly-heavy movement optimization mid-game",
+    "Aetherstream + mobility upgrades creates unmatched cruiser speed",
+    "Work toward Commander unlock by expanding influence across the map"
+  ],
+  "techPaths": [
+    {
+      "name": "Mobility-focused",
+      "techs": ["Aetherstream", "Cruiser II", "Gravity Drive"],
+      "note": "Leverage starting Dark Energy Tap; Aetherstream synergizes with mobility upgrades"
+    }
+  ],
+  "sources": ["sirreileffects.com/empyrean.html"]
+}
