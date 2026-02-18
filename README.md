@@ -25,7 +25,7 @@ Requires Node.js 18+.
 From GitHub:
 
 ```bash
-claude mcp add ti4 -- npx --yes github:tokdaniel/ti4-mcp
+claude mcp add ti4 -- npx --yes github:surewht/ti4-mcp
 ```
 
 From a local clone:
@@ -43,7 +43,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "ti4": {
       "command": "npx",
-      "args": ["--yes", "github:tokdaniel/ti4-mcp"]
+      "args": ["--yes", "github:surewht/ti4-mcp"]
     }
   }
 }
